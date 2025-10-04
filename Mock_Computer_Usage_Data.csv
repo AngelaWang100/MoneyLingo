@@ -1,0 +1,21 @@
+timestamp_start,timestamp_end,minutes,ssid,location,active_app,url_host,category_binary
+2025-10-03 09:00,2025-10-03 09:45,45,Butler-Library,Library,Excel,,Productive
+2025-10-03 09:55,2025-10-03 10:15,20,Butler-Library,Library,Google Docs,,Productive
+2025-10-03 10:20,2025-10-03 10:35,15,Mudd-Building,Classroom,VS Code,,Productive
+2025-10-03 10:45,2025-10-03 10:55,10,Home-WiFi,Home,VS Code,,Productive
+2025-10-03 11:00,2025-10-03 11:45,45,Butler-Library,Library,Firefox,youtube.com,Distracting
+2025-10-03 11:50,2025-10-03 12:35,45,Home-WiFi,Home,Excel,,Productive
+2025-10-03 12:45,2025-10-03 13:45,60,Butler-Library,Library,Spotify,,Distracting
+2025-10-03 13:45,2025-10-03 14:30,45,Butler-Library,Library,Google Docs,,Productive
+2025-10-03 14:30,2025-10-03 15:30,60,Cafe-WiFi,Café,Jupyter,,Productive
+2025-10-03 15:40,2025-10-03 15:55,15,Home-WiFi,Home,Excel,,Productive
+2025-10-03 15:55,2025-10-03 16:55,60,Butler-Library,Library,Instagram,,Distracting
+2025-10-03 16:55,2025-10-03 17:15,20,Home-WiFi,Home,Instagram,,Distracting
+2025-10-03 17:25,2025-10-03 17:55,30,Butler-Library,Library,Obsidian,,Productive
+2025-10-03 18:00,2025-10-03 19:00,60,Butler-Library,Library,Obsidian,,Productive
+2025-10-03 19:10,2025-10-03 19:40,30,Home-WiFi,Home,Obsidian,,Productive
+2025-10-03 19:50,2025-10-03 20:10,20,Home-WiFi,Home,Reddit,,Distracting
+2025-10-03 20:15,2025-10-03 21:00,45,Home-WiFi,Home,Excel,,Productive
+2025-10-03 21:00,2025-10-03 21:15,15,Home-WiFi,Home,Excel,,Productive
+2025-10-03 21:20,2025-10-03 21:35,15,Home-WiFi,Home,Notion,,Productive
+2025-10-03 21:35,2025-10-03 22:05,30,Home-WiFi,Home,Jupyter,,Productive
