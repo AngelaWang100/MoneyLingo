@@ -1,0 +1,1202 @@
+[
+  {
+    "_id": "MERCH_7605267D",
+    "name": "Smith, Fisher and Reynolds",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "0324",
+      "street_name": "Foster Harbors",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "75998"
+    }
+  },
+  {
+    "_id": "MERCH_EE9398E7",
+    "name": "Moore-Jones",
+    "category": "Grocery Store",
+    "address": {
+      "street_number": "6753",
+      "street_name": "Diaz Lodge",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": "08353"
+    }
+  },
+  {
+    "_id": "MERCH_F8F94E3F",
+    "name": "Anderson Inc",
+    "category": "Retail",
+    "address": {
+      "street_number": "33611",
+      "street_name": "Hawkins Walks",
+      "city": "Memphis",
+      "state": "TN",
+      "zip": "82606"
+    }
+  },
+  {
+    "_id": "MERCH_395DD538",
+    "name": "Carr, Rivera and Brown",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "8528",
+      "street_name": "Derek Canyon",
+      "city": "Kansas City",
+      "state": "MO",
+      "zip": "23711"
+    }
+  },
+  {
+    "_id": "MERCH_C3DB6683",
+    "name": "Thompson Group",
+    "category": "Online",
+    "address": {
+      "street_number": "950",
+      "street_name": "Stevens Hills",
+      "city": "Tucson",
+      "state": "AZ",
+      "zip": "59445"
+    }
+  },
+  {
+    "_id": "MERCH_106B8F7F",
+    "name": "Hampton, Howe and Edwards",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "3847",
+      "street_name": "Alan Harbor",
+      "city": "Santa Ana",
+      "state": "CA",
+      "zip": "23243"
+    }
+  },
+  {
+    "_id": "MERCH_2163B98F",
+    "name": "Lee Ltd",
+    "category": "Grocery Store",
+    "address": {
+      "street_number": "062",
+      "street_name": "Robert Drive",
+      "city": "Irvine",
+      "state": "CA",
+      "zip": "83992"
+    }
+  },
+  {
+    "_id": "MERCH_E46FE8AE",
+    "name": "Johnson-Brown",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "454",
+      "street_name": "Smith Inlet",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "50898"
+    }
+  },
+  {
+    "_id": "MERCH_D35AFB9F",
+    "name": "Walter, Johnson and Jones",
+    "category": "Grocery Store",
+    "address": {
+      "street_number": "221",
+      "street_name": "Danielle Court",
+      "city": "Fremont",
+      "state": "CA",
+      "zip": "60880"
+    }
+  },
+  {
+    "_id": "MERCH_C166E97E",
+    "name": "Barnes and Sons",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "82831",
+      "street_name": "Short Hollow",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zip": "42929"
+    }
+  },
+  {
+    "_id": "MERCH_F760DA3B",
+    "name": "Freeman, Oneal and Johnston",
+    "category": "Online",
+    "address": {
+      "street_number": "1387",
+      "street_name": "Salazar Park",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "63218"
+    }
+  },
+  {
+    "_id": "MERCH_854A1196",
+    "name": "Bautista-Wheeler",
+    "category": "Retail",
+    "address": {
+      "street_number": "129",
+      "street_name": "Stacy Camp",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "15591"
+    }
+  },
+  {
+    "_id": "MERCH_04E634B7",
+    "name": "Saunders Group",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "517",
+      "street_name": "Taylor Road",
+      "city": "Pearland",
+      "state": "TX",
+      "zip": "37358"
+    }
+  },
+  {
+    "_id": "MERCH_6B37E65A",
+    "name": "Craig, Phillips and Gould",
+    "category": "Government",
+    "address": {
+      "street_number": "60179",
+      "street_name": "Evans Track",
+      "city": "Albuquerque",
+      "state": "NM",
+      "zip": "96981"
+    }
+  },
+  {
+    "_id": "MERCH_41FB1C7D",
+    "name": "Williams, Fletcher and Turner",
+    "category": "Government",
+    "address": {
+      "street_number": "01932",
+      "street_name": "Carol Key",
+      "city": "Providence",
+      "state": "RI",
+      "zip": "00816"
+    }
+  },
+  {
+    "_id": "MERCH_116DF2E7",
+    "name": "Pierce-Stevenson",
+    "category": "Bank",
+    "address": {
+      "street_number": "41565",
+      "street_name": "Amy Lakes",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip": "55607"
+    }
+  },
+  {
+    "_id": "MERCH_95C8042A",
+    "name": "Miller Ltd",
+    "category": "Gas Station",
+    "address": {
+      "street_number": "89938",
+      "street_name": "Watson Well",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zip": "08128"
+    }
+  },
+  {
+    "_id": "MERCH_86C46413",
+    "name": "Welch-Burgess",
+    "category": "Gas Station",
+    "address": {
+      "street_number": "2003",
+      "street_name": "Williams Radial",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zip": "45745"
+    }
+  },
+  {
+    "_id": "MERCH_A788232F",
+    "name": "Edwards, Howard and Good",
+    "category": "Bank",
+    "address": {
+      "street_number": "5776",
+      "street_name": "Williams Pine",
+      "city": "Augusta",
+      "state": "GA",
+      "zip": "26426"
+    }
+  },
+  {
+    "_id": "MERCH_9195B0A0",
+    "name": "Simmons, Richardson and Wright",
+    "category": "Insurance",
+    "address": {
+      "street_number": "04413",
+      "street_name": "Austin Plains",
+      "city": "Anchorage",
+      "state": "AK",
+      "zip": "00900"
+    }
+  },
+  {
+    "_id": "MERCH_9485069D",
+    "name": "Perez, Travis and Rios",
+    "category": "Online",
+    "address": {
+      "street_number": "48177",
+      "street_name": "Jessica Mountain",
+      "city": "Laredo",
+      "state": "TX",
+      "zip": "77482"
+    }
+  },
+  {
+    "_id": "MERCH_C502C084",
+    "name": "Watson-Haynes",
+    "category": "Bank",
+    "address": {
+      "street_number": "2583",
+      "street_name": "Harris Keys",
+      "city": "New York",
+      "state": "NY",
+      "zip": "84094"
+    }
+  },
+  {
+    "_id": "MERCH_B2D4B488",
+    "name": "James Ltd",
+    "category": "Retail",
+    "address": {
+      "street_number": "71273",
+      "street_name": "Hernandez Springs",
+      "city": "Laredo",
+      "state": "TX",
+      "zip": "43133"
+    }
+  },
+  {
+    "_id": "MERCH_F29E405D",
+    "name": "Gibson-Casey",
+    "category": "Gas Station",
+    "address": {
+      "street_number": "463",
+      "street_name": "Davila Terrace",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "40454"
+    }
+  },
+  {
+    "_id": "MERCH_C36FF82F",
+    "name": "Ward PLC",
+    "category": "Online",
+    "address": {
+      "street_number": "3651",
+      "street_name": "Ferrell Summit",
+      "city": "El Paso",
+      "state": "TX",
+      "zip": "38189"
+    }
+  },
+  {
+    "_id": "MERCH_DA071213",
+    "name": "Taylor Ltd",
+    "category": "Retail",
+    "address": {
+      "street_number": "781",
+      "street_name": "Christopher Squares",
+      "city": "Laredo",
+      "state": "TX",
+      "zip": "33011"
+    }
+  },
+  {
+    "_id": "MERCH_24A31BD3",
+    "name": "Salinas, Blankenship and Ballard",
+    "category": "Bank",
+    "address": {
+      "street_number": "38144",
+      "street_name": "Deborah Forest",
+      "city": "Henderson",
+      "state": "NV",
+      "zip": "72418"
+    }
+  },
+  {
+    "_id": "MERCH_BDCB611E",
+    "name": "Palmer Group",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "7092",
+      "street_name": "Jason Mill",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "23148"
+    }
+  },
+  {
+    "_id": "MERCH_2FE971F1",
+    "name": "Lee and Sons",
+    "category": "Grocery Store",
+    "address": {
+      "street_number": "64992",
+      "street_name": "Chad Shoals",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "91523"
+    }
+  },
+  {
+    "_id": "MERCH_FB69FC95",
+    "name": "Martinez, Salinas and Adkins",
+    "category": "Gas Station",
+    "address": {
+      "street_number": "53987",
+      "street_name": "Brennan Creek",
+      "city": "Stockton",
+      "state": "CA",
+      "zip": "30445"
+    }
+  },
+  {
+    "_id": "MERCH_5EFF965F",
+    "name": "Sparks, Thompson and Stephens",
+    "category": "Retail",
+    "address": {
+      "street_number": "2383",
+      "street_name": "Smith Pines",
+      "city": "Anchorage",
+      "state": "AK",
+      "zip": "38023"
+    }
+  },
+  {
+    "_id": "MERCH_F3ED206F",
+    "name": "Rogers-Pierce",
+    "category": "Medical",
+    "address": {
+      "street_number": "904",
+      "street_name": "Kristin Mission",
+      "city": "St. Louis",
+      "state": "MO",
+      "zip": "07422"
+    }
+  },
+  {
+    "_id": "MERCH_3049C466",
+    "name": "Lynn and Sons",
+    "category": "Government",
+    "address": {
+      "street_number": "316",
+      "street_name": "Pamela Flat",
+      "city": "Fayetteville",
+      "state": "NC",
+      "zip": "07219"
+    }
+  },
+  {
+    "_id": "MERCH_2582C621",
+    "name": "Conner Ltd",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "1083",
+      "street_name": "White Ferry",
+      "city": "Tulsa",
+      "state": "OK",
+      "zip": "15120"
+    }
+  },
+  {
+    "_id": "MERCH_A33B9CA2",
+    "name": "Deleon, Smith and Casey",
+    "category": "Insurance",
+    "address": {
+      "street_number": "075",
+      "street_name": "Pena Harbor",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zip": "20168"
+    }
+  },
+  {
+    "_id": "MERCH_789E8A56",
+    "name": "Randolph-Johnston",
+    "category": "Retail",
+    "address": {
+      "street_number": "719",
+      "street_name": "Tran Estate",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zip": "26834"
+    }
+  },
+  {
+    "_id": "MERCH_DD477EB4",
+    "name": "Chung Group",
+    "category": "Entertainment",
+    "address": {
+      "street_number": "847",
+      "street_name": "Perry Valley",
+      "city": "Tucson",
+      "state": "AZ",
+      "zip": "13743"
+    }
+  },
+  {
+    "_id": "MERCH_1685A658",
+    "name": "Smith Inc",
+    "category": "Medical",
+    "address": {
+      "street_number": "80558",
+      "street_name": "Tina Village",
+      "city": "Washington",
+      "state": "DC",
+      "zip": "09208"
+    }
+  },
+  {
+    "_id": "MERCH_87328FAE",
+    "name": "Francis-Rosario",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "9517",
+      "street_name": "Shaw Point",
+      "city": "Lincoln",
+      "state": "NE",
+      "zip": "09245"
+    }
+  },
+  {
+    "_id": "MERCH_7DDE1521",
+    "name": "Brown-Bird",
+    "category": "Medical",
+    "address": {
+      "street_number": "3778",
+      "street_name": "Larry Station",
+      "city": "Chandler",
+      "state": "AZ",
+      "zip": "95276"
+    }
+  },
+  {
+    "_id": "MERCH_126B27D8",
+    "name": "Santos-Edwards",
+    "category": "Entertainment",
+    "address": {
+      "street_number": "880",
+      "street_name": "Warner Port",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zip": "62196"
+    }
+  },
+  {
+    "_id": "MERCH_3B7DCC15",
+    "name": "Huang and Sons",
+    "category": "Bank",
+    "address": {
+      "street_number": "39944",
+      "street_name": "Melody Ranch",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "zip": "35248"
+    }
+  },
+  {
+    "_id": "MERCH_3ACEA4DD",
+    "name": "White PLC",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "83250",
+      "street_name": "Lisa Springs",
+      "city": "Norfolk",
+      "state": "VA",
+      "zip": "34264"
+    }
+  },
+  {
+    "_id": "MERCH_EA842BFA",
+    "name": "Washington Group",
+    "category": "Bank",
+    "address": {
+      "street_number": "30801",
+      "street_name": "Allen Parkways",
+      "city": "Corpus Christi",
+      "state": "TX",
+      "zip": "42731"
+    }
+  },
+  {
+    "_id": "MERCH_FC0424B0",
+    "name": "Garcia-Bryan",
+    "category": "Pharmacy",
+    "address": {
+      "street_number": "03937",
+      "street_name": "Sarah Rue",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "31590"
+    }
+  },
+  {
+    "_id": "MERCH_981179C4",
+    "name": "Smith-Pineda",
+    "category": "Grocery Store",
+    "address": {
+      "street_number": "3596",
+      "street_name": "Guerra Gateway",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": "49051"
+    }
+  },
+  {
+    "_id": "MERCH_4E04A3C6",
+    "name": "Hughes LLC",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "13422",
+      "street_name": "Wilson Burg",
+      "city": "Norfolk",
+      "state": "VA",
+      "zip": "53061"
+    }
+  },
+  {
+    "_id": "MERCH_88F57101",
+    "name": "Foster-Alvarez",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "814",
+      "street_name": "Jacqueline Vista",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "62604"
+    }
+  },
+  {
+    "_id": "MERCH_9395D9FF",
+    "name": "Clark LLC",
+    "category": "Insurance",
+    "address": {
+      "street_number": "108",
+      "street_name": "Dominic Walks",
+      "city": "Norfolk",
+      "state": "VA",
+      "zip": "45960"
+    }
+  },
+  {
+    "_id": "MERCH_F28CCA36",
+    "name": "Miller-Molina",
+    "category": "Pharmacy",
+    "address": {
+      "street_number": "97959",
+      "street_name": "Phillips Viaduct",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "23328"
+    }
+  },
+  {
+    "_id": "MERCH_08F2520B",
+    "name": "Rhodes, Lee and Love",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "09043",
+      "street_name": "Harrell Harbor",
+      "city": "Providence",
+      "state": "RI",
+      "zip": "55056"
+    }
+  },
+  {
+    "_id": "MERCH_FB1A2395",
+    "name": "Ballard LLC",
+    "category": "Government",
+    "address": {
+      "street_number": "40109",
+      "street_name": "Richards Isle",
+      "city": "Greensboro",
+      "state": "NC",
+      "zip": "58759"
+    }
+  },
+  {
+    "_id": "MERCH_27402F5D",
+    "name": "Stein LLC",
+    "category": "Retail",
+    "address": {
+      "street_number": "431",
+      "street_name": "Taylor Mountain",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "zip": "44081"
+    }
+  },
+  {
+    "_id": "MERCH_8C12D3E7",
+    "name": "Bradley Ltd",
+    "category": "Online",
+    "address": {
+      "street_number": "082",
+      "street_name": "Sara Pines",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "54007"
+    }
+  },
+  {
+    "_id": "MERCH_89FD1199",
+    "name": "Davidson Inc",
+    "category": "Government",
+    "address": {
+      "street_number": "20774",
+      "street_name": "Clark Flats",
+      "city": "Oakland",
+      "state": "CA",
+      "zip": "57906"
+    }
+  },
+  {
+    "_id": "MERCH_8D8AE29E",
+    "name": "Garrett-Fisher",
+    "category": "Entertainment",
+    "address": {
+      "street_number": "2063",
+      "street_name": "Lane Wall",
+      "city": "Eugene",
+      "state": "OR",
+      "zip": "93928"
+    }
+  },
+  {
+    "_id": "MERCH_DEC066DB",
+    "name": "Kerr-Castaneda",
+    "category": "Online",
+    "address": {
+      "street_number": "13913",
+      "street_name": "Tammy Manor",
+      "city": "Augusta",
+      "state": "GA",
+      "zip": "01800"
+    }
+  },
+  {
+    "_id": "MERCH_32BE777E",
+    "name": "Howard-Ellis",
+    "category": "Retail",
+    "address": {
+      "street_number": "9021",
+      "street_name": "Phelps Rest",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "89118"
+    }
+  },
+  {
+    "_id": "MERCH_FDD1D8B4",
+    "name": "Owens-Brown",
+    "category": "Medical",
+    "address": {
+      "street_number": "37871",
+      "street_name": "Angela Springs",
+      "city": "New Orleans",
+      "state": "LA",
+      "zip": "12993"
+    }
+  },
+  {
+    "_id": "MERCH_993BF4E6",
+    "name": "Richard-Watson",
+    "category": "Entertainment",
+    "address": {
+      "street_number": "08384",
+      "street_name": "Rebecca Lodge",
+      "city": "Henderson",
+      "state": "NV",
+      "zip": "57987"
+    }
+  },
+  {
+    "_id": "MERCH_833A4625",
+    "name": "Fry-Sullivan",
+    "category": "Medical",
+    "address": {
+      "street_number": "382",
+      "street_name": "Kelly Unions",
+      "city": "Fort Worth",
+      "state": "TX",
+      "zip": "92467"
+    }
+  },
+  {
+    "_id": "MERCH_FC6BEB46",
+    "name": "Hopkins, Jackson and Silva",
+    "category": "Government",
+    "address": {
+      "street_number": "61514",
+      "street_name": "Saunders Square",
+      "city": "Albuquerque",
+      "state": "NM",
+      "zip": "78565"
+    }
+  },
+  {
+    "_id": "MERCH_7D7E79BD",
+    "name": "Alvarez Group",
+    "category": "Bank",
+    "address": {
+      "street_number": "7408",
+      "street_name": "Kim Walk",
+      "city": "Jersey City",
+      "state": "NJ",
+      "zip": "18841"
+    }
+  },
+  {
+    "_id": "MERCH_3EE4875D",
+    "name": "Johnson, Harrell and Davenport",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "333",
+      "street_name": "Rachel Harbors",
+      "city": "Lexington",
+      "state": "KY",
+      "zip": "44751"
+    }
+  },
+  {
+    "_id": "MERCH_991B1893",
+    "name": "Bond-Frey",
+    "category": "Government",
+    "address": {
+      "street_number": "2383",
+      "street_name": "Henderson Harbors",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "zip": "03897"
+    }
+  },
+  {
+    "_id": "MERCH_E537CBCF",
+    "name": "Scott, Colon and Collins",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "5734",
+      "street_name": "Catherine Circle",
+      "city": "Greensboro",
+      "state": "NC",
+      "zip": "33937"
+    }
+  },
+  {
+    "_id": "MERCH_A8D6B6D9",
+    "name": "Stevenson Inc",
+    "category": "Entertainment",
+    "address": {
+      "street_number": "218",
+      "street_name": "Dennis Ville",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "63679"
+    }
+  },
+  {
+    "_id": "MERCH_A773F295",
+    "name": "Williams Ltd",
+    "category": "Retail",
+    "address": {
+      "street_number": "940",
+      "street_name": "Hickman Wall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "45128"
+    }
+  },
+  {
+    "_id": "MERCH_509EA3E4",
+    "name": "Brown-Brooks",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "23309",
+      "street_name": "Natasha Route",
+      "city": "Cleveland",
+      "state": "OH",
+      "zip": "12975"
+    }
+  },
+  {
+    "_id": "MERCH_509D42B1",
+    "name": "Sanchez-Price",
+    "category": "Gas Station",
+    "address": {
+      "street_number": "7557",
+      "street_name": "Silva Motorway",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "46097"
+    }
+  },
+  {
+    "_id": "MERCH_E36F675D",
+    "name": "Cannon PLC",
+    "category": "Retail",
+    "address": {
+      "street_number": "8639",
+      "street_name": "Bell Gardens",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": "87558"
+    }
+  },
+  {
+    "_id": "MERCH_4C47C0D6",
+    "name": "Hawkins-Wells",
+    "category": "Online",
+    "address": {
+      "street_number": "15935",
+      "street_name": "Dorsey Bridge",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "18473"
+    }
+  },
+  {
+    "_id": "MERCH_520951FE",
+    "name": "Marsh, Adams and Pollard",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "65745",
+      "street_name": "Michael Ferry",
+      "city": "Pearland",
+      "state": "TX",
+      "zip": "62825"
+    }
+  },
+  {
+    "_id": "MERCH_373E6DFE",
+    "name": "Logan LLC",
+    "category": "Government",
+    "address": {
+      "street_number": "1202",
+      "street_name": "Casey Passage",
+      "city": "Toledo",
+      "state": "OH",
+      "zip": "42928"
+    }
+  },
+  {
+    "_id": "MERCH_C8AECCED",
+    "name": "Zimmerman-Liu",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "4515",
+      "street_name": "Hill Hill",
+      "city": "Milwaukee",
+      "state": "WI",
+      "zip": "36775"
+    }
+  },
+  {
+    "_id": "MERCH_DF7BD665",
+    "name": "Parks-Campbell",
+    "category": "Pharmacy",
+    "address": {
+      "street_number": "0359",
+      "street_name": "Amanda Isle",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "zip": "38591"
+    }
+  },
+  {
+    "_id": "MERCH_98FE4600",
+    "name": "Morales-Spencer",
+    "category": "Bank",
+    "address": {
+      "street_number": "9936",
+      "street_name": "Jones Mountains",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "22996"
+    }
+  },
+  {
+    "_id": "MERCH_C113A5ED",
+    "name": "Fisher-Kline",
+    "category": "Entertainment",
+    "address": {
+      "street_number": "1343",
+      "street_name": "Rivers Junction",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "70992"
+    }
+  },
+  {
+    "_id": "MERCH_DC028893",
+    "name": "Brown-Gibbs",
+    "category": "Online",
+    "address": {
+      "street_number": "3995",
+      "street_name": "Jenkins Port",
+      "city": "Washington",
+      "state": "DC",
+      "zip": "55458"
+    }
+  },
+  {
+    "_id": "MERCH_4AA4EA44",
+    "name": "Bartlett, Perez and Adams",
+    "category": "Insurance",
+    "address": {
+      "street_number": "137",
+      "street_name": "Michael Court",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "45087"
+    }
+  },
+  {
+    "_id": "MERCH_27A924B9",
+    "name": "Burns-Martin",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "8054",
+      "street_name": "Thomas Extensions",
+      "city": "Eugene",
+      "state": "OR",
+      "zip": "90950"
+    }
+  },
+  {
+    "_id": "MERCH_101722E0",
+    "name": "Parks, Torres and Hughes",
+    "category": "Gas Station",
+    "address": {
+      "street_number": "9299",
+      "street_name": "Lloyd Estate",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "69568"
+    }
+  },
+  {
+    "_id": "MERCH_990725E7",
+    "name": "Woods Group",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "85839",
+      "street_name": "Moore Cove",
+      "city": "Baltimore",
+      "state": "MD",
+      "zip": "15308"
+    }
+  },
+  {
+    "_id": "MERCH_811760A5",
+    "name": "Phillips PLC",
+    "category": "Entertainment",
+    "address": {
+      "street_number": "52156",
+      "street_name": "Orozco Summit",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "zip": "63926"
+    }
+  },
+  {
+    "_id": "MERCH_68C39F43",
+    "name": "Miller and Sons",
+    "category": "Insurance",
+    "address": {
+      "street_number": "22216",
+      "street_name": "Atkins Mission",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "18978"
+    }
+  },
+  {
+    "_id": "MERCH_2E1301AA",
+    "name": "Payne-Townsend",
+    "category": "Grocery Store",
+    "address": {
+      "street_number": "4116",
+      "street_name": "Samantha Trafficway",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "49807"
+    }
+  },
+  {
+    "_id": "MERCH_EDFCEDD1",
+    "name": "Andersen Ltd",
+    "category": "Bank",
+    "address": {
+      "street_number": "560",
+      "street_name": "Ronnie Motorway",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": "38437"
+    }
+  },
+  {
+    "_id": "MERCH_34CD0374",
+    "name": "Anderson Group",
+    "category": "Bank",
+    "address": {
+      "street_number": "92697",
+      "street_name": "Janice Gardens",
+      "city": "Detroit",
+      "state": "MI",
+      "zip": "54770"
+    }
+  },
+  {
+    "_id": "MERCH_4CD7DE77",
+    "name": "Meadows PLC",
+    "category": "Retail",
+    "address": {
+      "street_number": "8939",
+      "street_name": "Morales Ways",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "82690"
+    }
+  },
+  {
+    "_id": "MERCH_F8BEEC2D",
+    "name": "Parks-Scott",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "098",
+      "street_name": "Edwards Pike",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "62492"
+    }
+  },
+  {
+    "_id": "MERCH_27BFD2EA",
+    "name": "Wallace-Cruz",
+    "category": "Bank",
+    "address": {
+      "street_number": "058",
+      "street_name": "Smith Mall",
+      "city": "Anchorage",
+      "state": "AK",
+      "zip": "27275"
+    }
+  },
+  {
+    "_id": "MERCH_17033A29",
+    "name": "Cooley, Brown and Tran",
+    "category": "Pharmacy",
+    "address": {
+      "street_number": "10765",
+      "street_name": "Frank Motorway",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "82275"
+    }
+  },
+  {
+    "_id": "MERCH_266409E8",
+    "name": "Melton-Avery",
+    "category": "Retail",
+    "address": {
+      "street_number": "0345",
+      "street_name": "Jensen Fields",
+      "city": "Lexington",
+      "state": "KY",
+      "zip": "17745"
+    }
+  },
+  {
+    "_id": "MERCH_C1F6223C",
+    "name": "Singleton, Brown and Thompson",
+    "category": "Insurance",
+    "address": {
+      "street_number": "55084",
+      "street_name": "Jonathan Estate",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zip": "18005"
+    }
+  },
+  {
+    "_id": "MERCH_7C95D828",
+    "name": "Whitehead-Clark",
+    "category": "Bank",
+    "address": {
+      "street_number": "95202",
+      "street_name": "Rhodes Pines",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip": "12243"
+    }
+  },
+  {
+    "_id": "MERCH_AC9A0612",
+    "name": "Marquez-Carlson",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "025",
+      "street_name": "Lydia Rapids",
+      "city": "Corpus Christi",
+      "state": "TX",
+      "zip": "16141"
+    }
+  },
+  {
+    "_id": "MERCH_14208C4E",
+    "name": "Graham, Mitchell and Garcia",
+    "category": "Utility Company",
+    "address": {
+      "street_number": "208",
+      "street_name": "Mitchell Club",
+      "city": "Corpus Christi",
+      "state": "TX",
+      "zip": "99026"
+    }
+  },
+  {
+    "_id": "MERCH_C8039ADE",
+    "name": "Ward-Brown",
+    "category": "Pharmacy",
+    "address": {
+      "street_number": "95419",
+      "street_name": "Megan Drives",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "92146"
+    }
+  },
+  {
+    "_id": "MERCH_71C45F8D",
+    "name": "Warner-Garcia",
+    "category": "Restaurant",
+    "address": {
+      "street_number": "595",
+      "street_name": "Lisa Viaduct",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "82042"
+    }
+  },
+  {
+    "_id": "MERCH_53AB0255",
+    "name": "Ford-Riddle",
+    "category": "Subscription Service",
+    "address": {
+      "street_number": "2845",
+      "street_name": "Christopher Manors",
+      "city": "Richmond",
+      "state": "VA",
+      "zip": "06694"
+    }
+  }
+]

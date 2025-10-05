@@ -1,0 +1,1136 @@
+[
+  {
+    "_id": "ACC_D49D3005",
+    "type": "Checking",
+    "nickname": "Kenneth's Checking",
+    "rewards": 0,
+    "balance": 787.18,
+    "account_number": "373142107303355",
+    "customer_id": "CUST_7D41EAE4"
+  },
+  {
+    "_id": "ACC_1837026D",
+    "type": "Checking",
+    "nickname": "Kayla's Checking",
+    "rewards": 0,
+    "balance": 6406.17,
+    "account_number": "573615672983",
+    "customer_id": "CUST_0BBE266C"
+  },
+  {
+    "_id": "ACC_964FD198",
+    "type": "Savings",
+    "nickname": "Kayla's Savings",
+    "rewards": 0,
+    "balance": 4430.46,
+    "account_number": "2713177053359733",
+    "customer_id": "CUST_0BBE266C"
+  },
+  {
+    "_id": "ACC_433F7C90",
+    "type": "Checking",
+    "nickname": "Erica's Checking",
+    "rewards": 0,
+    "balance": 4261.77,
+    "account_number": "371896733392759",
+    "customer_id": "CUST_D93B74FB"
+  },
+  {
+    "_id": "ACC_0E057AF5",
+    "type": "Checking",
+    "nickname": "James's Checking",
+    "rewards": 0,
+    "balance": 7066.46,
+    "account_number": "3514909254343408",
+    "customer_id": "CUST_32B2D175"
+  },
+  {
+    "_id": "ACC_C403863E",
+    "type": "Credit Card",
+    "nickname": "James's Credit Card",
+    "rewards": 0,
+    "balance": 2286.0,
+    "account_number": "2277655534652477",
+    "customer_id": "CUST_32B2D175"
+  },
+  {
+    "_id": "ACC_C7AC7D16",
+    "type": "Savings",
+    "nickname": "James's Savings",
+    "rewards": 0,
+    "balance": 1917.54,
+    "account_number": "6011499961439690",
+    "customer_id": "CUST_32B2D175"
+  },
+  {
+    "_id": "ACC_23A9A93B",
+    "type": "Checking",
+    "nickname": "James's Checking",
+    "rewards": 0,
+    "balance": 5694.84,
+    "account_number": "213149978795563",
+    "customer_id": "CUST_32B2D175"
+  },
+  {
+    "_id": "ACC_A2B67B5B",
+    "type": "Checking",
+    "nickname": "Lorraine's Checking",
+    "rewards": 0,
+    "balance": 8385.31,
+    "account_number": "4138492107499",
+    "customer_id": "CUST_201D8BA6"
+  },
+  {
+    "_id": "ACC_9AA71D82",
+    "type": "Savings",
+    "nickname": "Lorraine's Savings",
+    "rewards": 0,
+    "balance": 1156.25,
+    "account_number": "2705282231279447",
+    "customer_id": "CUST_201D8BA6"
+  },
+  {
+    "_id": "ACC_FF40414E",
+    "type": "Checking",
+    "nickname": "Lorraine's Checking",
+    "rewards": 0,
+    "balance": 516.48,
+    "account_number": "4276598773432689",
+    "customer_id": "CUST_201D8BA6"
+  },
+  {
+    "_id": "ACC_376B971E",
+    "type": "Savings",
+    "nickname": "Scott's Savings",
+    "rewards": 0,
+    "balance": 7939.74,
+    "account_number": "4743427795078871",
+    "customer_id": "CUST_D0D1C576"
+  },
+  {
+    "_id": "ACC_B0AB0A5B",
+    "type": "Credit Card",
+    "nickname": "Scott's Credit Card",
+    "rewards": 0,
+    "balance": 2648.15,
+    "account_number": "30184382535116",
+    "customer_id": "CUST_D0D1C576"
+  },
+  {
+    "_id": "ACC_411DA9E0",
+    "type": "Credit Card",
+    "nickname": "Scott's Credit Card",
+    "rewards": 0,
+    "balance": 137.06,
+    "account_number": "30288083024161",
+    "customer_id": "CUST_D0D1C576"
+  },
+  {
+    "_id": "ACC_C6521572",
+    "type": "Checking",
+    "nickname": "Frederick's Checking",
+    "rewards": 0,
+    "balance": 910.33,
+    "account_number": "6513186183929656",
+    "customer_id": "CUST_45682F66"
+  },
+  {
+    "_id": "ACC_386AF340",
+    "type": "Savings",
+    "nickname": "Frederick's Savings",
+    "rewards": 0,
+    "balance": 8697.58,
+    "account_number": "4525967125729124014",
+    "customer_id": "CUST_45682F66"
+  },
+  {
+    "_id": "ACC_6BD5D206",
+    "type": "Savings",
+    "nickname": "Frederick's Savings",
+    "rewards": 0,
+    "balance": 4467.8,
+    "account_number": "3575554759324226",
+    "customer_id": "CUST_45682F66"
+  },
+  {
+    "_id": "ACC_46E179C5",
+    "type": "Credit Card",
+    "nickname": "Mark's Credit Card",
+    "rewards": 0,
+    "balance": 4723.76,
+    "account_number": "213102327033814",
+    "customer_id": "CUST_87A4288E"
+  },
+  {
+    "_id": "ACC_5748F2BA",
+    "type": "Credit Card",
+    "nickname": "Mark's Credit Card",
+    "rewards": 0,
+    "balance": 1380.14,
+    "account_number": "2325077084002312",
+    "customer_id": "CUST_87A4288E"
+  },
+  {
+    "_id": "ACC_C6D6C568",
+    "type": "Credit Card",
+    "nickname": "Adam's Credit Card",
+    "rewards": 0,
+    "balance": 2645.63,
+    "account_number": "6546627547519213",
+    "customer_id": "CUST_FBBDFDCD"
+  },
+  {
+    "_id": "ACC_11F9B12B",
+    "type": "Savings",
+    "nickname": "Adam's Savings",
+    "rewards": 0,
+    "balance": 7663.14,
+    "account_number": "060457677395",
+    "customer_id": "CUST_FBBDFDCD"
+  },
+  {
+    "_id": "ACC_2EEF66C3",
+    "type": "Checking",
+    "nickname": "Adam's Checking",
+    "rewards": 0,
+    "balance": 242.83,
+    "account_number": "3513995222614765",
+    "customer_id": "CUST_FBBDFDCD"
+  },
+  {
+    "_id": "ACC_77AFFC05",
+    "type": "Checking",
+    "nickname": "John's Checking",
+    "rewards": 0,
+    "balance": 3002.48,
+    "account_number": "5299018399500249",
+    "customer_id": "CUST_38C02627"
+  },
+  {
+    "_id": "ACC_226D53FF",
+    "type": "Credit Card",
+    "nickname": "Maurice's Credit Card",
+    "rewards": 0,
+    "balance": 2009.23,
+    "account_number": "30336900950173",
+    "customer_id": "CUST_30D8D6C4"
+  },
+  {
+    "_id": "ACC_C2CD85CC",
+    "type": "Checking",
+    "nickname": "Maurice's Checking",
+    "rewards": 0,
+    "balance": 4590.21,
+    "account_number": "630435931658",
+    "customer_id": "CUST_30D8D6C4"
+  },
+  {
+    "_id": "ACC_28BD92F5",
+    "type": "Savings",
+    "nickname": "Maurice's Savings",
+    "rewards": 0,
+    "balance": 7725.99,
+    "account_number": "213171391533686",
+    "customer_id": "CUST_30D8D6C4"
+  },
+  {
+    "_id": "ACC_5E8470DC",
+    "type": "Savings",
+    "nickname": "Eddie's Savings",
+    "rewards": 0,
+    "balance": 2785.38,
+    "account_number": "2362814362088843",
+    "customer_id": "CUST_F4CADB03"
+  },
+  {
+    "_id": "ACC_7E169960",
+    "type": "Credit Card",
+    "nickname": "Eddie's Credit Card",
+    "rewards": 0,
+    "balance": 6481.7,
+    "account_number": "3513124532104611",
+    "customer_id": "CUST_F4CADB03"
+  },
+  {
+    "_id": "ACC_FE4BF69A",
+    "type": "Credit Card",
+    "nickname": "Lindsey's Credit Card",
+    "rewards": 0,
+    "balance": 8056.64,
+    "account_number": "3535543932379735",
+    "customer_id": "CUST_9955A8B6"
+  },
+  {
+    "_id": "ACC_95929AE5",
+    "type": "Checking",
+    "nickname": "Lindsey's Checking",
+    "rewards": 0,
+    "balance": 8768.25,
+    "account_number": "4162983207673841611",
+    "customer_id": "CUST_9955A8B6"
+  },
+  {
+    "_id": "ACC_9DF7C1F9",
+    "type": "Checking",
+    "nickname": "Lindsey's Checking",
+    "rewards": 0,
+    "balance": 8971.07,
+    "account_number": "4322980587875135",
+    "customer_id": "CUST_9955A8B6"
+  },
+  {
+    "_id": "ACC_02FAEE38",
+    "type": "Savings",
+    "nickname": "Martha's Savings",
+    "rewards": 0,
+    "balance": 4091.91,
+    "account_number": "4908080622190251",
+    "customer_id": "CUST_BABA8007"
+  },
+  {
+    "_id": "ACC_234B7D32",
+    "type": "Checking",
+    "nickname": "Rachel's Checking",
+    "rewards": 0,
+    "balance": 5108.66,
+    "account_number": "3512332133809840",
+    "customer_id": "CUST_1007ECAF"
+  },
+  {
+    "_id": "ACC_5DCAD51E",
+    "type": "Checking",
+    "nickname": "Rachel's Checking",
+    "rewards": 0,
+    "balance": 4238.44,
+    "account_number": "36879283988348",
+    "customer_id": "CUST_1007ECAF"
+  },
+  {
+    "_id": "ACC_933EC925",
+    "type": "Checking",
+    "nickname": "Rachel's Checking",
+    "rewards": 0,
+    "balance": 3934.55,
+    "account_number": "676338177626",
+    "customer_id": "CUST_1007ECAF"
+  },
+  {
+    "_id": "ACC_263E46EA",
+    "type": "Credit Card",
+    "nickname": "Gregory's Credit Card",
+    "rewards": 0,
+    "balance": 1385.95,
+    "account_number": "38207431649331",
+    "customer_id": "CUST_32523BC3"
+  },
+  {
+    "_id": "ACC_DF18C1A8",
+    "type": "Checking",
+    "nickname": "James's Checking",
+    "rewards": 0,
+    "balance": 6145.96,
+    "account_number": "4920011044138028",
+    "customer_id": "CUST_91BDA639"
+  },
+  {
+    "_id": "ACC_24A7DA15",
+    "type": "Checking",
+    "nickname": "James's Checking",
+    "rewards": 0,
+    "balance": 4549.29,
+    "account_number": "6543529988601208",
+    "customer_id": "CUST_91BDA639"
+  },
+  {
+    "_id": "ACC_019C4D62",
+    "type": "Savings",
+    "nickname": "James's Savings",
+    "rewards": 0,
+    "balance": 7205.87,
+    "account_number": "3549989736863370",
+    "customer_id": "CUST_91BDA639"
+  },
+  {
+    "_id": "ACC_C64B686E",
+    "type": "Credit Card",
+    "nickname": "Jose's Credit Card",
+    "rewards": 0,
+    "balance": 9655.61,
+    "account_number": "5428263299022654",
+    "customer_id": "CUST_98B8C3FB"
+  },
+  {
+    "_id": "ACC_BB32B8D1",
+    "type": "Savings",
+    "nickname": "Jose's Savings",
+    "rewards": 0,
+    "balance": 584.58,
+    "account_number": "4287259420239",
+    "customer_id": "CUST_98B8C3FB"
+  },
+  {
+    "_id": "ACC_43EBD48E",
+    "type": "Savings",
+    "nickname": "Jose's Savings",
+    "rewards": 0,
+    "balance": 292.75,
+    "account_number": "3576955018101348",
+    "customer_id": "CUST_98B8C3FB"
+  },
+  {
+    "_id": "ACC_4B47E7E3",
+    "type": "Checking",
+    "nickname": "Richard's Checking",
+    "rewards": 0,
+    "balance": 4034.59,
+    "account_number": "30326305341300",
+    "customer_id": "CUST_9706E292"
+  },
+  {
+    "_id": "ACC_EBFA8703",
+    "type": "Checking",
+    "nickname": "Richard's Checking",
+    "rewards": 0,
+    "balance": 9515.75,
+    "account_number": "4366989192633497",
+    "customer_id": "CUST_9706E292"
+  },
+  {
+    "_id": "ACC_30434585",
+    "type": "Checking",
+    "nickname": "Dennis's Checking",
+    "rewards": 0,
+    "balance": 1934.87,
+    "account_number": "4598429246925920",
+    "customer_id": "CUST_5E4A8BA7"
+  },
+  {
+    "_id": "ACC_E30F29DC",
+    "type": "Savings",
+    "nickname": "Dennis's Savings",
+    "rewards": 0,
+    "balance": 106.95,
+    "account_number": "3548942406227864",
+    "customer_id": "CUST_5E4A8BA7"
+  },
+  {
+    "_id": "ACC_88FAE9AD",
+    "type": "Credit Card",
+    "nickname": "Dennis's Credit Card",
+    "rewards": 0,
+    "balance": 3944.56,
+    "account_number": "3508630610611308",
+    "customer_id": "CUST_5E4A8BA7"
+  },
+  {
+    "_id": "ACC_0AD2798D",
+    "type": "Credit Card",
+    "nickname": "Dennis's Credit Card",
+    "rewards": 0,
+    "balance": 2519.07,
+    "account_number": "676291453428",
+    "customer_id": "CUST_5E4A8BA7"
+  },
+  {
+    "_id": "ACC_E8E10575",
+    "type": "Checking",
+    "nickname": "Jorge's Checking",
+    "rewards": 0,
+    "balance": 7778.9,
+    "account_number": "4013903423868233",
+    "customer_id": "CUST_1AA3A02C"
+  },
+  {
+    "_id": "ACC_AAC06E7E",
+    "type": "Savings",
+    "nickname": "Jorge's Savings",
+    "rewards": 0,
+    "balance": 7555.77,
+    "account_number": "30599326087389",
+    "customer_id": "CUST_1AA3A02C"
+  },
+  {
+    "_id": "ACC_D5194EE6",
+    "type": "Credit Card",
+    "nickname": "Jorge's Credit Card",
+    "rewards": 0,
+    "balance": 490.63,
+    "account_number": "3507019775925649",
+    "customer_id": "CUST_1AA3A02C"
+  },
+  {
+    "_id": "ACC_FEAB9632",
+    "type": "Savings",
+    "nickname": "Jorge's Savings",
+    "rewards": 0,
+    "balance": 814.4,
+    "account_number": "344558110608181",
+    "customer_id": "CUST_1AA3A02C"
+  },
+  {
+    "_id": "ACC_0F40C408",
+    "type": "Savings",
+    "nickname": "Michael's Savings",
+    "rewards": 0,
+    "balance": 9284.57,
+    "account_number": "4889002466920851",
+    "customer_id": "CUST_062456AD"
+  },
+  {
+    "_id": "ACC_4041A8B5",
+    "type": "Savings",
+    "nickname": "Michael's Savings",
+    "rewards": 0,
+    "balance": 7226.41,
+    "account_number": "4989361282621722112",
+    "customer_id": "CUST_F030CF80"
+  },
+  {
+    "_id": "ACC_D52607B7",
+    "type": "Credit Card",
+    "nickname": "Michael's Credit Card",
+    "rewards": 0,
+    "balance": 2536.08,
+    "account_number": "4563594355884657118",
+    "customer_id": "CUST_F030CF80"
+  },
+  {
+    "_id": "ACC_C49DC1A2",
+    "type": "Credit Card",
+    "nickname": "Michael's Credit Card",
+    "rewards": 0,
+    "balance": 275.94,
+    "account_number": "4096105167638604",
+    "customer_id": "CUST_F030CF80"
+  },
+  {
+    "_id": "ACC_2ADDDBA4",
+    "type": "Savings",
+    "nickname": "Jessica's Savings",
+    "rewards": 0,
+    "balance": 1964.72,
+    "account_number": "3598266983363242",
+    "customer_id": "CUST_0132A92E"
+  },
+  {
+    "_id": "ACC_67E58386",
+    "type": "Credit Card",
+    "nickname": "Jessica's Credit Card",
+    "rewards": 0,
+    "balance": 2866.24,
+    "account_number": "3588124681760320",
+    "customer_id": "CUST_0132A92E"
+  },
+  {
+    "_id": "ACC_5BE1E719",
+    "type": "Checking",
+    "nickname": "Jessica's Checking",
+    "rewards": 0,
+    "balance": 2999.43,
+    "account_number": "30416743898795",
+    "customer_id": "CUST_0132A92E"
+  },
+  {
+    "_id": "ACC_B7C6436D",
+    "type": "Savings",
+    "nickname": "Jessica's Savings",
+    "rewards": 0,
+    "balance": 9314.4,
+    "account_number": "3528588182399759",
+    "customer_id": "CUST_0132A92E"
+  },
+  {
+    "_id": "ACC_7C913C06",
+    "type": "Credit Card",
+    "nickname": "Todd's Credit Card",
+    "rewards": 0,
+    "balance": 9138.29,
+    "account_number": "676314217131",
+    "customer_id": "CUST_4C977F10"
+  },
+  {
+    "_id": "ACC_3B3020C6",
+    "type": "Checking",
+    "nickname": "Andrew's Checking",
+    "rewards": 0,
+    "balance": 6514.69,
+    "account_number": "6516773164231751",
+    "customer_id": "CUST_C691FBEA"
+  },
+  {
+    "_id": "ACC_3B0B1C2A",
+    "type": "Savings",
+    "nickname": "Andrew's Savings",
+    "rewards": 0,
+    "balance": 2891.4,
+    "account_number": "4412172420144538",
+    "customer_id": "CUST_C691FBEA"
+  },
+  {
+    "_id": "ACC_18368D93",
+    "type": "Checking",
+    "nickname": "Peter's Checking",
+    "rewards": 0,
+    "balance": 1355.16,
+    "account_number": "213176542538377",
+    "customer_id": "CUST_0EF1E02E"
+  },
+  {
+    "_id": "ACC_70E234E0",
+    "type": "Savings",
+    "nickname": "Peter's Savings",
+    "rewards": 0,
+    "balance": 989.52,
+    "account_number": "4247561131797181",
+    "customer_id": "CUST_0EF1E02E"
+  },
+  {
+    "_id": "ACC_FDA14B18",
+    "type": "Credit Card",
+    "nickname": "Peter's Credit Card",
+    "rewards": 0,
+    "balance": 7918.36,
+    "account_number": "4175500591416429552",
+    "customer_id": "CUST_0EF1E02E"
+  },
+  {
+    "_id": "ACC_CF7EA87B",
+    "type": "Credit Card",
+    "nickname": "Peter's Credit Card",
+    "rewards": 0,
+    "balance": 3942.57,
+    "account_number": "4639431357476371",
+    "customer_id": "CUST_0EF1E02E"
+  },
+  {
+    "_id": "ACC_3D17ADDA",
+    "type": "Credit Card",
+    "nickname": "Eric's Credit Card",
+    "rewards": 0,
+    "balance": 4003.76,
+    "account_number": "4940156271036",
+    "customer_id": "CUST_FA129BA9"
+  },
+  {
+    "_id": "ACC_565A00ED",
+    "type": "Credit Card",
+    "nickname": "Eric's Credit Card",
+    "rewards": 0,
+    "balance": 8391.07,
+    "account_number": "4655931075631263",
+    "customer_id": "CUST_FA129BA9"
+  },
+  {
+    "_id": "ACC_E29CCC4C",
+    "type": "Checking",
+    "nickname": "Eric's Checking",
+    "rewards": 0,
+    "balance": 4185.32,
+    "account_number": "38033545016880",
+    "customer_id": "CUST_FA129BA9"
+  },
+  {
+    "_id": "ACC_9785EDA5",
+    "type": "Credit Card",
+    "nickname": "Eric's Credit Card",
+    "rewards": 0,
+    "balance": 1764.8,
+    "account_number": "4584017524830965439",
+    "customer_id": "CUST_FA129BA9"
+  },
+  {
+    "_id": "ACC_1220A05D",
+    "type": "Checking",
+    "nickname": "Antonio's Checking",
+    "rewards": 0,
+    "balance": 865.63,
+    "account_number": "3586924383936629",
+    "customer_id": "CUST_323E2E49"
+  },
+  {
+    "_id": "ACC_8776517D",
+    "type": "Checking",
+    "nickname": "Antonio's Checking",
+    "rewards": 0,
+    "balance": 3130.13,
+    "account_number": "213197904244073",
+    "customer_id": "CUST_323E2E49"
+  },
+  {
+    "_id": "ACC_286DD4CF",
+    "type": "Savings",
+    "nickname": "Antonio's Savings",
+    "rewards": 0,
+    "balance": 5569.32,
+    "account_number": "4187602827641465",
+    "customer_id": "CUST_323E2E49"
+  },
+  {
+    "_id": "ACC_0123638C",
+    "type": "Savings",
+    "nickname": "Antonio's Savings",
+    "rewards": 0,
+    "balance": 3030.52,
+    "account_number": "4013423077147",
+    "customer_id": "CUST_323E2E49"
+  },
+  {
+    "_id": "ACC_B580CA60",
+    "type": "Credit Card",
+    "nickname": "Dawn's Credit Card",
+    "rewards": 0,
+    "balance": 2493.43,
+    "account_number": "4893237216993",
+    "customer_id": "CUST_89E07381"
+  },
+  {
+    "_id": "ACC_2AA05449",
+    "type": "Savings",
+    "nickname": "Dawn's Savings",
+    "rewards": 0,
+    "balance": 6542.86,
+    "account_number": "4614984101923064885",
+    "customer_id": "CUST_89E07381"
+  },
+  {
+    "_id": "ACC_AD72651C",
+    "type": "Savings",
+    "nickname": "Dawn's Savings",
+    "rewards": 0,
+    "balance": 3216.8,
+    "account_number": "3598969211067341",
+    "customer_id": "CUST_89E07381"
+  },
+  {
+    "_id": "ACC_02E12A43",
+    "type": "Checking",
+    "nickname": "Brian's Checking",
+    "rewards": 0,
+    "balance": 6312.93,
+    "account_number": "30141203005620",
+    "customer_id": "CUST_F6852B8A"
+  },
+  {
+    "_id": "ACC_202A6E16",
+    "type": "Checking",
+    "nickname": "Christopher's Checking",
+    "rewards": 0,
+    "balance": 8109.58,
+    "account_number": "3547874408414664",
+    "customer_id": "CUST_17C95EFA"
+  },
+  {
+    "_id": "ACC_BA7AEAFB",
+    "type": "Checking",
+    "nickname": "Christopher's Checking",
+    "rewards": 0,
+    "balance": 1130.4,
+    "account_number": "676374407879",
+    "customer_id": "CUST_17C95EFA"
+  },
+  {
+    "_id": "ACC_9372E3E5",
+    "type": "Credit Card",
+    "nickname": "Robert's Credit Card",
+    "rewards": 0,
+    "balance": 5965.27,
+    "account_number": "4488393747127803",
+    "customer_id": "CUST_8F174CE6"
+  },
+  {
+    "_id": "ACC_5A167641",
+    "type": "Savings",
+    "nickname": "Robert's Savings",
+    "rewards": 0,
+    "balance": 739.84,
+    "account_number": "579608495464",
+    "customer_id": "CUST_8F174CE6"
+  },
+  {
+    "_id": "ACC_F14AA86C",
+    "type": "Credit Card",
+    "nickname": "Robert's Credit Card",
+    "rewards": 0,
+    "balance": 6305.27,
+    "account_number": "4956616826698",
+    "customer_id": "CUST_8F174CE6"
+  },
+  {
+    "_id": "ACC_444FF330",
+    "type": "Checking",
+    "nickname": "Robert's Checking",
+    "rewards": 0,
+    "balance": 6259.9,
+    "account_number": "3546470486428238",
+    "customer_id": "CUST_8F174CE6"
+  },
+  {
+    "_id": "ACC_2B0BC1F1",
+    "type": "Credit Card",
+    "nickname": "Carolyn's Credit Card",
+    "rewards": 0,
+    "balance": 2533.08,
+    "account_number": "4224621994685803",
+    "customer_id": "CUST_2863D271"
+  },
+  {
+    "_id": "ACC_2640BC20",
+    "type": "Savings",
+    "nickname": "Jonathan's Savings",
+    "rewards": 0,
+    "balance": 6679.75,
+    "account_number": "4290758400247558173",
+    "customer_id": "CUST_479DBE2D"
+  },
+  {
+    "_id": "ACC_27428541",
+    "type": "Credit Card",
+    "nickname": "Michael's Credit Card",
+    "rewards": 0,
+    "balance": 7120.07,
+    "account_number": "4481051070041085",
+    "customer_id": "CUST_540048D6"
+  },
+  {
+    "_id": "ACC_2C45DB88",
+    "type": "Savings",
+    "nickname": "Michael's Savings",
+    "rewards": 0,
+    "balance": 3830.65,
+    "account_number": "3516273466261371",
+    "customer_id": "CUST_540048D6"
+  },
+  {
+    "_id": "ACC_E66C905D",
+    "type": "Checking",
+    "nickname": "Michael's Checking",
+    "rewards": 0,
+    "balance": 930.19,
+    "account_number": "4099016307009",
+    "customer_id": "CUST_540048D6"
+  },
+  {
+    "_id": "ACC_EDC1F766",
+    "type": "Credit Card",
+    "nickname": "Bradley's Credit Card",
+    "rewards": 0,
+    "balance": 680.25,
+    "account_number": "5452838341322670",
+    "customer_id": "CUST_11D9F9BC"
+  },
+  {
+    "_id": "ACC_7DBDFA4B",
+    "type": "Savings",
+    "nickname": "Bradley's Savings",
+    "rewards": 0,
+    "balance": 9521.24,
+    "account_number": "3561067870808429",
+    "customer_id": "CUST_11D9F9BC"
+  },
+  {
+    "_id": "ACC_C5B19E21",
+    "type": "Credit Card",
+    "nickname": "Nicholas's Credit Card",
+    "rewards": 0,
+    "balance": 3042.32,
+    "account_number": "3561705054418040",
+    "customer_id": "CUST_A42DCC1D"
+  },
+  {
+    "_id": "ACC_BB9F455F",
+    "type": "Credit Card",
+    "nickname": "Nicholas's Credit Card",
+    "rewards": 0,
+    "balance": 8900.07,
+    "account_number": "3568585642182586",
+    "customer_id": "CUST_A42DCC1D"
+  },
+  {
+    "_id": "ACC_10AE24F4",
+    "type": "Savings",
+    "nickname": "Zachary's Savings",
+    "rewards": 0,
+    "balance": 5175.86,
+    "account_number": "4203525300303",
+    "customer_id": "CUST_14B56F9A"
+  },
+  {
+    "_id": "ACC_579C4FEB",
+    "type": "Credit Card",
+    "nickname": "Zachary's Credit Card",
+    "rewards": 0,
+    "balance": 7129.29,
+    "account_number": "213131459189714",
+    "customer_id": "CUST_14B56F9A"
+  },
+  {
+    "_id": "ACC_B6CADCF6",
+    "type": "Savings",
+    "nickname": "Zachary's Savings",
+    "rewards": 0,
+    "balance": 109.31,
+    "account_number": "4582844972763",
+    "customer_id": "CUST_14B56F9A"
+  },
+  {
+    "_id": "ACC_E6CE9126",
+    "type": "Savings",
+    "nickname": "Zachary's Savings",
+    "rewards": 0,
+    "balance": 5380.21,
+    "account_number": "373346329071472",
+    "customer_id": "CUST_14B56F9A"
+  },
+  {
+    "_id": "ACC_CF430171",
+    "type": "Savings",
+    "nickname": "Robert's Savings",
+    "rewards": 0,
+    "balance": 3465.33,
+    "account_number": "4994967050020937831",
+    "customer_id": "CUST_9B467592"
+  },
+  {
+    "_id": "ACC_4B86C44D",
+    "type": "Savings",
+    "nickname": "Robert's Savings",
+    "rewards": 0,
+    "balance": 6727.92,
+    "account_number": "3574961739623596",
+    "customer_id": "CUST_9B467592"
+  },
+  {
+    "_id": "ACC_8A1EA2F3",
+    "type": "Checking",
+    "nickname": "Alice's Checking",
+    "rewards": 0,
+    "balance": 5092.72,
+    "account_number": "4332738151912",
+    "customer_id": "CUST_7395203D"
+  },
+  {
+    "_id": "ACC_6BB5C8AB",
+    "type": "Savings",
+    "nickname": "Gail's Savings",
+    "rewards": 0,
+    "balance": 6508.17,
+    "account_number": "4615287446737",
+    "customer_id": "CUST_71DFFE3E"
+  },
+  {
+    "_id": "ACC_1DED5B1B",
+    "type": "Savings",
+    "nickname": "Gail's Savings",
+    "rewards": 0,
+    "balance": 9783.92,
+    "account_number": "4587700966680881478",
+    "customer_id": "CUST_71DFFE3E"
+  },
+  {
+    "_id": "ACC_EB852F3D",
+    "type": "Savings",
+    "nickname": "Gail's Savings",
+    "rewards": 0,
+    "balance": 5816.91,
+    "account_number": "345888161774585",
+    "customer_id": "CUST_71DFFE3E"
+  },
+  {
+    "_id": "ACC_304D5334",
+    "type": "Credit Card",
+    "nickname": "Xavier's Credit Card",
+    "rewards": 0,
+    "balance": 6036.38,
+    "account_number": "4108416724638094",
+    "customer_id": "CUST_1AA785F7"
+  },
+  {
+    "_id": "ACC_59EFBD6E",
+    "type": "Credit Card",
+    "nickname": "Xavier's Credit Card",
+    "rewards": 0,
+    "balance": 4362.01,
+    "account_number": "5387077257662205",
+    "customer_id": "CUST_1AA785F7"
+  },
+  {
+    "_id": "ACC_BB82A4DE",
+    "type": "Checking",
+    "nickname": "Joshua's Checking",
+    "rewards": 0,
+    "balance": 3122.59,
+    "account_number": "2292620258539723",
+    "customer_id": "CUST_88DA016B"
+  },
+  {
+    "_id": "ACC_9365A322",
+    "type": "Savings",
+    "nickname": "Joshua's Savings",
+    "rewards": 0,
+    "balance": 7056.61,
+    "account_number": "374213488681526",
+    "customer_id": "CUST_88DA016B"
+  },
+  {
+    "_id": "ACC_E24175AB",
+    "type": "Checking",
+    "nickname": "Bonnie's Checking",
+    "rewards": 0,
+    "balance": 787.53,
+    "account_number": "4933581602396742",
+    "customer_id": "CUST_AFF5092F"
+  },
+  {
+    "_id": "ACC_4F8E0B19",
+    "type": "Savings",
+    "nickname": "Bonnie's Savings",
+    "rewards": 0,
+    "balance": 5083.38,
+    "account_number": "4063409258479681",
+    "customer_id": "CUST_AFF5092F"
+  },
+  {
+    "_id": "ACC_BB53FA32",
+    "type": "Credit Card",
+    "nickname": "Juan's Credit Card",
+    "rewards": 0,
+    "balance": 4129.43,
+    "account_number": "4005932614355726",
+    "customer_id": "CUST_1795C407"
+  },
+  {
+    "_id": "ACC_ADC955EA",
+    "type": "Checking",
+    "nickname": "Juan's Checking",
+    "rewards": 0,
+    "balance": 8604.54,
+    "account_number": "3513269647817886",
+    "customer_id": "CUST_1795C407"
+  },
+  {
+    "_id": "ACC_FFA85AF8",
+    "type": "Savings",
+    "nickname": "Juan's Savings",
+    "rewards": 0,
+    "balance": 7883.23,
+    "account_number": "3535151160412341",
+    "customer_id": "CUST_1795C407"
+  },
+  {
+    "_id": "ACC_84EB0C80",
+    "type": "Checking",
+    "nickname": "Juan's Checking",
+    "rewards": 0,
+    "balance": 108.01,
+    "account_number": "4254260936521418177",
+    "customer_id": "CUST_1795C407"
+  },
+  {
+    "_id": "ACC_888CE6E2",
+    "type": "Savings",
+    "nickname": "Cynthia's Savings",
+    "rewards": 0,
+    "balance": 277.22,
+    "account_number": "4227664224119697074",
+    "customer_id": "CUST_3811DA45"
+  },
+  {
+    "_id": "ACC_0CA02F4C",
+    "type": "Savings",
+    "nickname": "Amy's Savings",
+    "rewards": 0,
+    "balance": 7500.84,
+    "account_number": "3577279467105554",
+    "customer_id": "CUST_F5F47E21"
+  },
+  {
+    "_id": "ACC_34906B48",
+    "type": "Checking",
+    "nickname": "Amy's Checking",
+    "rewards": 0,
+    "balance": 9881.27,
+    "account_number": "6011931243802428",
+    "customer_id": "CUST_F5F47E21"
+  },
+  {
+    "_id": "ACC_130168B8",
+    "type": "Savings",
+    "nickname": "Amy's Savings",
+    "rewards": 0,
+    "balance": 2921.74,
+    "account_number": "36672646267611",
+    "customer_id": "CUST_F5F47E21"
+  },
+  {
+    "_id": "ACC_7577D07E",
+    "type": "Checking",
+    "nickname": "Madison's Checking",
+    "rewards": 0,
+    "balance": 5426.7,
+    "account_number": "676277627839",
+    "customer_id": "CUST_136C0D15"
+  },
+  {
+    "_id": "ACC_D5786DF0",
+    "type": "Credit Card",
+    "nickname": "Madison's Credit Card",
+    "rewards": 0,
+    "balance": 3081.78,
+    "account_number": "060450761964",
+    "customer_id": "CUST_136C0D15"
+  },
+  {
+    "_id": "ACC_DAFDC7FD",
+    "type": "Savings",
+    "nickname": "Madison's Savings",
+    "rewards": 0,
+    "balance": 3039.64,
+    "account_number": "4673952440341329",
+    "customer_id": "CUST_136C0D15"
+  },
+  {
+    "_id": "ACC_52CD4903",
+    "type": "Checking",
+    "nickname": "Madison's Checking",
+    "rewards": 0,
+    "balance": 3625.38,
+    "account_number": "343048259874621",
+    "customer_id": "CUST_136C0D15"
+  },
+  {
+    "_id": "ACC_FFD07D50",
+    "type": "Savings",
+    "nickname": "Summer's Savings",
+    "rewards": 0,
+    "balance": 7453.73,
+    "account_number": "567592449001",
+    "customer_id": "CUST_0CDDE8DE"
+  },
+  {
+    "_id": "ACC_FF35651D",
+    "type": "Credit Card",
+    "nickname": "Summer's Credit Card",
+    "rewards": 0,
+    "balance": 2930.32,
+    "account_number": "213138439974776",
+    "customer_id": "CUST_0CDDE8DE"
+  },
+  {
+    "_id": "ACC_C834205B",
+    "type": "Credit Card",
+    "nickname": "Summer's Credit Card",
+    "rewards": 0,
+    "balance": 6666.02,
+    "account_number": "30195977943366",
+    "customer_id": "CUST_0CDDE8DE"
+  },
+  {
+    "_id": "ACC_B7893E81",
+    "type": "Savings",
+    "nickname": "Summer's Savings",
+    "rewards": 0,
+    "balance": 625.16,
+    "account_number": "4008341180130",
+    "customer_id": "CUST_0CDDE8DE"
+  }
+]
