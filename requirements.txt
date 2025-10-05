@@ -1,6 +1,7 @@
 langchain>=0.1.0
 langchain-google-genai>=1.0.1
 langgraph>=0.0.20
+google-generativeai>=0.8.0
 comet-llm>=0.0.1
 requests>=2.31.0
 python-dotenv>=1.0.0
