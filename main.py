@@ -12,6 +12,7 @@ from typing import Dict, Any, List
 from agents.orchestrator import AgentOrchestrator
 from agents.voice_translation_agent import VoiceTranslationAgent
 from agents.auto_language_voice_agent import AutoLanguageVoiceAgent
+from agents.tavily_research_agent import TavilyResearchAgent
 from voice.elevenlabs_service import ElevenLabsVoiceService
 from observability.comet_integration import CometObserver
 from monetization.monetization_service import RealityCheckMonetization
