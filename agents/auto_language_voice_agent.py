@@ -18,7 +18,7 @@ class AutoLanguageVoiceAgent(VoiceEnhancedAgent):
         )
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash-exp",
-            google_api_key="AIzaSyBvkcT0-wLuIgIENqPIHJKs2X5Br-ckJKs",
+            google_api_key="AIzaSyD0zqBY42YTeKwij1kL6RAaERjuxEtthzs",
             temperature=0.3
         )
     

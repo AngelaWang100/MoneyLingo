@@ -9,9 +9,10 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Link, useNavigate } from "react-router-dom";
-import { MessageSquare, FileText, Shield, Globe, TrendingUp, Headphones, Heart, Users, Target, Send, Mic, PiggyBank, CheckCircle2, CreditCard, Wallet, TrendingDown, Phone, Sparkles } from "lucide-react";
+import { MessageSquare, FileText, Shield, Globe, TrendingUp, Headphones, Heart, Users, Target, Send, Mic, PiggyBank, CheckCircle2, CreditCard, Wallet, TrendingDown, Phone, Sparkles, Loader2 } from "lucide-react";
 import { VoiceCallInterface } from "@/components/VoiceCallInterface";
 import { useToast } from "@/hooks/use-toast";
+import { apiClient } from "@/lib/api";
 const Index = () => {
   const navigate = useNavigate();
   const {
@@ -26,41 +27,78 @@ const Index = () => {
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
   const [isCallActive, setIsCallActive] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
+  
+  // AI-powered dynamic content
+  const [aiContent, setAiContent] = useState({
+    heroTitle: "Talk to Your Financial AI",
+    heroDescription: "AI-powered financial guidance in your language.",
+    features: [],
+    faqs: [],
+    isLoading: true
+  });
   const placeholders = ["Ask about your credit score…", "Type your question in any language…", "Need help with taxes?", "How do I build credit?", "What's a good interest rate?"];
   const languages = [{
     code: "en",
     name: "English",
-    flag: "🇺🇸",
-    greeting: "How can I help you today?"
+    flag: "🇺🇸"
   }, {
     code: "es",
     name: "Español",
-    flag: "🇪🇸",
-    greeting: "¿Cómo puedo ayudarte hoy?"
+    flag: "🇪🇸"
   }, {
     code: "zh",
     name: "中文",
-    flag: "🇨🇳",
-    greeting: "今天我能帮你什么？"
+    flag: "🇨🇳"
   }, {
     code: "ar",
     name: "العربية",
-    flag: "🇸🇦",
-    greeting: "كيف يمكنني مساعدتك اليوم؟"
+    flag: "🇸🇦"
   }, {
     code: "hi",
     name: "हिन्दी",
-    flag: "🇮🇳",
-    greeting: "आज मैं आपकी कैसे मदद कर सकता हूं?"
+    flag: "🇮🇳"
   }, {
     code: "fr",
     name: "Français",
-    flag: "🇫🇷",
-    greeting: "Comment puis-je vous aider aujourd'hui?"
+    flag: "🇫🇷"
   }];
+  // Load AI-generated content
+  const loadAIContent = async () => {
+    try {
+      setAiContent(prev => ({ ...prev, isLoading: true }));
+      
+      // Get AI-generated features
+      const featuresResponse = await apiClient.sendChatMessage(
+        "Generate 3 key features for a financial AI assistant website. Return as JSON array with title, description, and icon fields.",
+        selectedLanguage
+      );
+      
+      // Get AI-generated FAQs
+      const faqResponse = await apiClient.sendChatMessage(
+        "Generate 5 common FAQ questions and answers for a financial AI assistant. Return as JSON array with question and answer fields.",
+        selectedLanguage
+      );
+      
+      if (featuresResponse.success && faqResponse.success) {
+        setAiContent(prev => ({
+          ...prev,
+          features: featuresResponse.data?.response ? JSON.parse(featuresResponse.data.response) : [],
+          faqs: faqResponse.data?.response ? JSON.parse(faqResponse.data.response) : [],
+          isLoading: false
+        }));
+      }
+    } catch (error) {
+      console.error('Failed to load AI content:', error);
+      setAiContent(prev => ({ ...prev, isLoading: false }));
+    }
+  };
+
   useEffect(() => {
     const authStatus = localStorage.getItem("isAuthenticated") === "true";
     setIsAuthenticated(authStatus);
+
+    // Load AI content
+    loadAIContent();
 
     // Rotate placeholders every 3 seconds
     const interval = setInterval(() => {
@@ -78,7 +116,7 @@ const Index = () => {
       clearInterval(interval);
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [selectedLanguage]);
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (!searchQuery.trim()) return;
@@ -106,75 +144,75 @@ const Index = () => {
     }
   };
   const onboardingSteps = [{
-    title: "Welcome to MoneyLingo",
-    description: "Your AI-powered financial literacy assistant in your native language.",
+    title: "AI Financial Assistant",
+    description: "Connect with our AI for personalized financial guidance.",
     icon: PiggyBank
   }, {
-    title: "Upload & Analyze",
-    description: "Upload your credit statements, tax forms, or any financial document for instant analysis.",
+    title: "Document Analysis",
+    description: "Upload financial documents for AI-powered analysis.",
     icon: FileText
   }, {
-    title: "Get Personalized Plans",
-    description: "Receive customized financial strategies tailored to your goals and situation.",
+    title: "Personalized Plans",
+    description: "Get customized financial strategies from our AI.",
     icon: Target
   }];
   const features = [{
     icon: MessageSquare,
     title: "AI Financial Assistant",
-    description: "Get instant answers to your financial questions in your native language. Our AI breaks down complex concepts into simple, culturally-aware guidance through natural conversation.",
+    description: "AI-powered financial assistance with real-time responses.",
     link: "/chat"
   }, {
     icon: FileText,
     title: "Document Analysis",
-    description: "Upload tax forms, credit statements, bank documents, or any financial paperwork for instant analysis. Receive clear explanations and actionable insights in seconds.",
+    description: "AI-powered document analysis with instant insights.",
     link: "/documents"
   }, {
     icon: Target,
     title: "Personalized Financial Plans",
-    description: "Create customized financial strategies tailored to your goals and situation. Track your progress, build credit, manage debt, and achieve financial confidence.",
+    description: "AI-generated personalized financial strategies and tracking.",
     link: "/dashboard"
   }];
   const values = [{
     icon: Heart,
-    title: "Empathy First",
-    description: "We understand the challenges immigrants and ESL speakers face in navigating complex financial systems."
+    title: "AI-Powered Empathy",
+    description: "AI-driven understanding of financial challenges."
   }, {
     icon: Users,
-    title: "Cultural Inclusivity",
-    description: "Financial advice that respects and incorporates diverse cultural perspectives and experiences."
+    title: "AI Cultural Intelligence",
+    description: "AI-powered cultural awareness in financial guidance."
   }, {
     icon: Target,
-    title: "Clear Communication",
-    description: "Breaking down complex financial jargon into simple, accessible language everyone can understand."
+    title: "AI Communication",
+    description: "AI-generated clear and accessible financial language."
   }, {
     icon: Shield,
-    title: "Trust & Security",
-    description: "Your financial information is protected with the highest security standards in the industry."
+    title: "AI Security",
+    description: "AI-powered financial data protection."
   }];
   const faqs = [{
     question: "How does the AI understand my native language?",
-    answer: "Our AI is trained on multiple languages and financial terminology across cultures. It can understand and respond accurately in over 25 languages, ensuring you get precise financial guidance in the language you're most comfortable with."
+    answer: "AI-powered multilingual support with real-time language processing."
   }, {
     question: "Is my financial data secure?",
-    answer: "Yes! We use bank-level encryption (256-bit SSL) to protect all your documents and data. Your information is encrypted both in transit and at rest, and we never share your data with third parties. All staff undergo background checks and security training."
+    answer: "Advanced security with AI-powered data protection."
   }, {
     question: "What types of documents can I upload?",
-    answer: "You can upload tax forms (W-2, 1040, etc.), credit card statements, bank statements, loan documents, and more. We support PDF, JPG, and PNG formats up to 10MB per file."
+    answer: "AI-powered document analysis for various financial formats."
   }, {
     question: "How accurate is the AI's financial advice?",
-    answer: "Our AI is trained on official financial regulations and best practices, but it's important to note that it provides educational guidance, not personalized financial advice. For specific financial decisions, we recommend consulting with a licensed financial advisor."
+    answer: "AI-generated guidance based on real-time financial data analysis."
   }, {
     question: "Can I use voice input if I'm not comfortable typing?",
-    answer: "Absolutely! Our platform supports voice input in multiple languages. Simply click the phone icon to start a voice call with our AI assistant. The AI will understand and respond to your questions naturally."
+    answer: "AI-powered voice recognition and response in multiple languages."
   }, {
     question: "How much does MoneyLingo cost?",
-    answer: "We offer a free tier with basic features including AI chat and document uploads. Premium plans start at $9.99/month and include unlimited AI sessions, priority support, and advanced analytics features."
+    answer: "AI-powered financial assistance with flexible pricing."
   }, {
     question: "What languages are currently supported?",
-    answer: "We currently support English, Spanish, Mandarin Chinese, Arabic, Hindi, French, Portuguese, Russian, Korean, Japanese, Vietnamese, Tagalog, and many more. We're constantly adding new languages based on user demand."
+    answer: "AI supports multiple languages with real-time translation."
   }, {
     question: "Can the AI help me build my credit score?",
-    answer: "Yes! The AI can provide personalized credit-building strategies, explain how credit scores work, help you understand your credit report, and suggest specific actions to improve your score based on your situation."
+    answer: "AI-powered credit analysis and personalized recommendations."
   }];
   const currentLanguage = languages.find(l => l.name === selectedLanguage) || languages[0];
   return <div className="min-h-screen flex flex-col bg-background relative">
@@ -214,10 +252,19 @@ const Index = () => {
       }}>
           <div className="container mx-auto max-w-6xl text-center space-y-8 animate-fade-in-up">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight px-4">
-              <span className="block shimmer-text pb-2">Talk to Your Financial AI</span>
+              <span className="block shimmer-text pb-2">
+                {aiContent.isLoading ? (
+                  <div className="flex items-center gap-2">
+                    <Loader2 className="h-8 w-8 animate-spin" />
+                    <span>Loading AI Content...</span>
+                  </div>
+                ) : (
+                  aiContent.heroTitle
+                )}
+              </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto px-4 sm:px-6">
-              Get instant answers to your financial questions in your native language. Our AI assistant breaks down complex concepts into simple, culturally-aware guidance.
+              {aiContent.isLoading ? "Generating AI content..." : aiContent.heroDescription}
             </p>
             
             {/* Prominent Call Button */}
@@ -240,7 +287,7 @@ const Index = () => {
                     {lang.name}
                   </button>)}
               </div>
-              <p className="text-xs sm:text-sm text-muted-foreground mt-4 text-center animate-fade-in">Available 24/7 in 20+ languages</p>
+              <p className="text-xs sm:text-sm text-muted-foreground mt-4 text-center animate-fade-in">AI-powered multilingual support</p>
             </div>
           </div>
         </section>
@@ -260,27 +307,38 @@ const Index = () => {
             
             <div className="text-center mb-16 animate-fade-in-up">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 shimmer-text">
-                Everything You Need to Succeed
+                AI-Powered Financial Tools
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Comprehensive tools to build your financial confidence and achieve your goals.
+                AI-driven financial assistance and guidance.
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              {features.map((feature, index) => {
-              const Icon = feature.icon;
-              const FeatureCard = feature.link ? Link : 'div';
-              return <FeatureCard key={feature.title} to={feature.link} className="bg-background/80 backdrop-blur-sm border border-border/40 shadow-md p-8 rounded-2xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up cursor-pointer" style={{
-                animationDelay: `${index * 0.1}s`
-              }}>
+              {aiContent.isLoading ? (
+                // Loading state
+                Array.from({ length: 3 }).map((_, index) => (
+                  <div key={index} className="bg-background/80 backdrop-blur-sm border border-border/40 shadow-md p-8 rounded-2xl animate-pulse">
+                    <div className="h-14 w-14 rounded-xl bg-muted mb-6"></div>
+                    <div className="h-6 bg-muted rounded mb-3"></div>
+                    <div className="h-4 bg-muted rounded mb-2"></div>
+                    <div className="h-4 bg-muted rounded w-3/4"></div>
+                  </div>
+                ))
+              ) : (
+                // AI-generated features
+                aiContent.features.map((feature: any, index: number) => (
+                  <div key={index} className="bg-background/80 backdrop-blur-sm border border-border/40 shadow-md p-8 rounded-2xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-fade-in-up" style={{
+                    animationDelay: `${index * 0.1}s`
+                  }}>
                     <div className="h-14 w-14 rounded-xl bg-gradient-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                      <Icon className="h-7 w-7 text-primary-foreground" />
+                      <MessageSquare className="h-7 w-7 text-primary-foreground" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
-                    <p className="text-base text-muted-foreground leading-relaxed">{feature.description}</p>
-                  </FeatureCard>;
-            })}
+                    <h3 className="text-xl font-semibold mb-3">{feature.title || 'AI Feature'}</h3>
+                    <p className="text-base text-muted-foreground leading-relaxed">{feature.description || 'AI-powered financial assistance'}</p>
+                  </div>
+                ))
+              )}
             </div>
           </div>
         </section>
@@ -300,24 +358,37 @@ const Index = () => {
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-16 animate-fade-in-up">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 shimmer-text">
-                  Frequently Asked Questions
+                  AI-Powered FAQ
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Find answers to common questions about MoneyLingo
+                  AI-generated answers to your questions
                 </p>
               </div>
 
               <Accordion type="single" collapsible className="space-y-4">
-                {faqs.map((faq, index) => <AccordionItem key={index} value={`item-${index}`} className="bg-background/80 backdrop-blur-sm border border-border/40 shadow-md rounded-lg px-6 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 animate-fade-in-up" style={{
-                animationDelay: `${index * 0.05}s`
-              }}>
-                    <AccordionTrigger className="text-left hover:no-underline">
-                      <span className="font-semibold">{faq.question}</span>
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground">
-                      {faq.answer}
-                    </AccordionContent>
-                  </AccordionItem>)}
+                {aiContent.isLoading ? (
+                  // Loading state
+                  Array.from({ length: 5 }).map((_, index) => (
+                    <div key={index} className="bg-background/80 backdrop-blur-sm border border-border/40 shadow-md rounded-lg px-6 py-4 animate-pulse">
+                      <div className="h-6 bg-muted rounded mb-2"></div>
+                      <div className="h-4 bg-muted rounded w-3/4"></div>
+                    </div>
+                  ))
+                ) : (
+                  // AI-generated FAQs
+                  aiContent.faqs.map((faq: any, index: number) => (
+                    <AccordionItem key={index} value={`item-${index}`} className="bg-background/80 backdrop-blur-sm border border-border/40 shadow-md rounded-lg px-6 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 animate-fade-in-up" style={{
+                      animationDelay: `${index * 0.05}s`
+                    }}>
+                      <AccordionTrigger className="text-left hover:no-underline">
+                        <span className="font-semibold">{faq.question || 'AI-Generated Question'}</span>
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground">
+                        {faq.answer || 'AI-generated answer'}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))
+                )}
               </Accordion>
             </div>
           </div>
@@ -345,13 +416,13 @@ const Index = () => {
                 Ready to Take Control of Your Finances?
               </h2>
               <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-                Join thousands of users who are building financial confidence in their native language.
+                Start your AI-powered financial journey today.
               </p>
               <Button size="lg" onClick={handleGetStarted} className="bg-gradient-glow text-white px-12 py-7 text-xl rounded-full hover:scale-105 hover:shadow-2xl transition-all duration-300 shadow-xl glow-pulse">
                 Get Started Free
               </Button>
               <p className="text-sm text-muted-foreground mt-4">
-                No credit card required • Available in 20+ languages
+                AI-powered financial assistance
               </p>
             </div>
           </div>
@@ -368,10 +439,10 @@ const Index = () => {
         <AlertDialogContent className="glass-card border-2 border-primary/20">
           <AlertDialogHeader>
             <AlertDialogTitle className="text-2xl shimmer-text pb-1">
-              Sign in required
+              AI Access Required
             </AlertDialogTitle>
             <AlertDialogDescription className="text-base">
-              You need to sign in to chat with our AI assistant and get personalized financial guidance in your language.
+              Sign in to access AI-powered financial assistance.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter className="flex-col sm:flex-row gap-2">
