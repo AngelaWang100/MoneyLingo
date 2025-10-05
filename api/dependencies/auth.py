@@ -16,17 +16,12 @@ async def get_current_user(
     token = credentials.credentials
     payload = decode_token(token)
     
+    # Get real user data from database
     user = get_user_by_email(payload["email"])
     if not user:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="User not found"
-        )
-    
-    if not user.get("is_active", True):
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="User account is inactive"
         )
     
     return user

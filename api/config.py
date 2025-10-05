@@ -30,11 +30,14 @@ class Settings(BaseSettings):
     echo_client_secret: Optional[str] = None
     echo_merchant_id: Optional[str] = None
     echo_project_name: str = "RealityCheck Financial Assistant"
+    echo_environment: str = "development"
     
     # Backend URLs
     backend_base_url: str = "http://localhost:8000"
     plan_endpoint: str = "/plan"
     transactions_endpoint: str = "/transactions"
+    remittance_endpoint: str = "/remittance"
+    search_endpoint: str = "/search"
     
     # Voice Configuration
     default_voice_id: str = "21m00Tcm4TlvDq8ikWAM"
@@ -58,6 +61,10 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str = "HS256"
     JWT_EXPIRATION_HOURS: int = 24
 
+    # Nessie API Configuration
+    NESSIE_API_KEY: Optional[str] = None
+    NESSIE_BASE_URL: Optional[str] = None
+
     # API Configuration (for FastAPI)
     API_TITLE: str = "RealityCheck API"
     API_VERSION: str = "2.0.0"
@@ -67,6 +74,7 @@ class Settings(BaseSettings):
         env_file = ".env"
         env_file_encoding = "utf-8"
         case_sensitive = False
+        extra = "ignore"  # Allow extra fields from .env
 
 @lru_cache
 def get_settings() -> Settings:
