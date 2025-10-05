@@ -3,9 +3,10 @@ Configuration settings for RealityCheck API
 """
 import os
 from typing import Optional
-from pydantic import BaseModel
+from pydantic_settings import BaseSettings
+from functools import lru_cache
 
-class Settings(BaseModel):
+class Settings(BaseSettings):
     """Application settings"""
     
     # API Configuration
@@ -45,9 +46,31 @@ class Settings(BaseModel):
     cors_allow_methods: list = ["*"]
     cors_allow_headers: list = ["*"]
     
+    # Auth0 Configuration
+    AUTH0_DOMAIN: Optional[str] = None
+    AUTH0_CLIENT_ID: Optional[str] = None
+    AUTH0_CLIENT_SECRET: Optional[str] = None
+    AUTH0_AUDIENCE: Optional[str] = None
+    AUTH0_CALLBACK_URL: Optional[str] = None
+
+    # JWT Configuration
+    JWT_SECRET: Optional[str] = None
+    JWT_ALGORITHM: str = "HS256"
+    JWT_EXPIRATION_HOURS: int = 24
+
+    # API Configuration (for FastAPI)
+    API_TITLE: str = "RealityCheck API"
+    API_VERSION: str = "2.0.0"
+    API_PREFIX: str = "/api/v1"
+    
     class Config:
         env_file = ".env"
+        env_file_encoding = "utf-8"
         case_sensitive = False
 
-# Global settings instance
-settings = Settings()
+@lru_cache
+def get_settings() -> Settings:
+    return Settings()
+
+# Global settings instance for backward compatibility
+settings = get_settings()
