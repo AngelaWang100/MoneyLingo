@@ -1,0 +1,292 @@
+[
+  {
+    "_id": "BRANCH_48B7D5AF",
+    "name": "MoneyLingo Bank - Fishermouth",
+    "address": {
+      "street_number": "0258",
+      "street_name": "Wood Shore",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "zip": "55153"
+    },
+    "phone": "673-465-7782x25826",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_3362799F",
+    "name": "MoneyLingo Bank - Powelltown",
+    "address": {
+      "street_number": "24617",
+      "street_name": "Krystal Meadows",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "zip": "14092"
+    },
+    "phone": "957-418-3520",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_17C141D6",
+    "name": "MoneyLingo Bank - Jamesville",
+    "address": {
+      "street_number": "069",
+      "street_name": "Julie Well",
+      "city": "Mobile",
+      "state": "AL",
+      "zip": "03055"
+    },
+    "phone": "358-792-7823x4531",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_1AA1006D",
+    "name": "MoneyLingo Bank - Lake Wesley",
+    "address": {
+      "street_number": "1721",
+      "street_name": "Ramirez Villages",
+      "city": "Lincoln",
+      "state": "NE",
+      "zip": "12555"
+    },
+    "phone": "718.959.2353x57944",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_385DD566",
+    "name": "MoneyLingo Bank - Port Michael",
+    "address": {
+      "street_number": "6213",
+      "street_name": "Bailey Fork",
+      "city": "Huntsville",
+      "state": "AL",
+      "zip": "70602"
+    },
+    "phone": "(712)307-2946",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_761FE688",
+    "name": "MoneyLingo Bank - Russellfurt",
+    "address": {
+      "street_number": "692",
+      "street_name": "Kennedy Skyway",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "82632"
+    },
+    "phone": "+1-727-448-3728x234",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_44B0FFED",
+    "name": "MoneyLingo Bank - New Jamesbury",
+    "address": {
+      "street_number": "924",
+      "street_name": "Peterson Highway",
+      "city": "Pearland",
+      "state": "TX",
+      "zip": "26056"
+    },
+    "phone": "8657602763",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_23A4D8D1",
+    "name": "MoneyLingo Bank - South Rachelhaven",
+    "address": {
+      "street_number": "8873",
+      "street_name": "Payne Harbor",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "69403"
+    },
+    "phone": "731-596-0957",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_9435D6B9",
+    "name": "MoneyLingo Bank - North Dennis",
+    "address": {
+      "street_number": "6823",
+      "street_name": "Melissa Roads",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "26017"
+    },
+    "phone": "(220)555-7532x46110",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  },
+  {
+    "_id": "BRANCH_BEB3BBAD",
+    "name": "MoneyLingo Bank - Port Alicia",
+    "address": {
+      "street_number": "331",
+      "street_name": "White Throughway",
+      "city": "Stockton",
+      "state": "CA",
+      "zip": "37954"
+    },
+    "phone": "+1-927-330-3543x44498",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "services": [
+      "Personal Banking",
+      "Business Banking",
+      "Loans",
+      "Investment Services",
+      "Safe Deposit Boxes",
+      "Notary"
+    ]
+  }
+]

@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
 from api.config import get_settings
-from api.routes import auth, users
+from api.routes import auth, users, moneylingo
 
 settings = get_settings()
 
@@ -23,6 +23,7 @@ app.add_middleware(
 # Include routers
 app.include_router(auth.router, prefix=settings.API_PREFIX)
 app.include_router(users.router, prefix=settings.API_PREFIX)
+app.include_router(moneylingo.router, prefix=settings.API_PREFIX, tags=["MoneyLingo"])
 
 @app.get("/health")
 async def health_check():

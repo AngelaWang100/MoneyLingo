@@ -1,0 +1,439 @@
+[
+  {
+    "_id": "ATM_1C6D6246",
+    "name": "ATM - Jose Mountains",
+    "address": {
+      "street_number": "626",
+      "street_name": "Kelly Mews",
+      "city": "Baton Rouge",
+      "state": "LA",
+      "zip": "15457"
+    },
+    "available_24_7": false,
+    "services": [
+      "Cash Withdrawal",
+      "Balance Inquiry",
+      "Transfer",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_F7BBF6C1",
+    "name": "ATM - Ricky View",
+    "address": {
+      "street_number": "01156",
+      "street_name": "Courtney Hill",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "94362"
+    },
+    "available_24_7": true,
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Transfer",
+      "Deposit"
+    ]
+  },
+  {
+    "_id": "ATM_3B542299",
+    "name": "ATM - Fields Harbors",
+    "address": {
+      "street_number": "55697",
+      "street_name": "Patrick Burg",
+      "city": "Fremont",
+      "state": "CA",
+      "zip": "84995"
+    },
+    "available_24_7": true,
+    "services": [
+      "Cash Withdrawal",
+      "Deposit"
+    ]
+  },
+  {
+    "_id": "ATM_F4C69B30",
+    "name": "ATM - Ellen Garden",
+    "address": {
+      "street_number": "684",
+      "street_name": "Allen Unions",
+      "city": "Irvine",
+      "state": "CA",
+      "zip": "09933"
+    },
+    "available_24_7": false,
+    "services": [
+      "Transfer",
+      "Cash Withdrawal",
+      "Deposit",
+      "Balance Inquiry",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_59FD7809",
+    "name": "ATM - Carrie Trail",
+    "address": {
+      "street_number": "805",
+      "street_name": "Evans Shoals",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "70978"
+    },
+    "available_24_7": false,
+    "services": [
+      "Cash Withdrawal",
+      "Transfer",
+      "Balance Inquiry",
+      "Deposit"
+    ]
+  },
+  {
+    "_id": "ATM_73037651",
+    "name": "ATM - White Tunnel",
+    "address": {
+      "street_number": "84971",
+      "street_name": "Gonzalez Via",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "87347"
+    },
+    "available_24_7": true,
+    "services": [
+      "Transfer",
+      "Deposit",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_5981E3ED",
+    "name": "ATM - Sydney Rapid",
+    "address": {
+      "street_number": "5757",
+      "street_name": "Robertson Creek",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zip": "30431"
+    },
+    "available_24_7": true,
+    "services": [
+      "Deposit",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_C2BFE810",
+    "name": "ATM - Stacy Road",
+    "address": {
+      "street_number": "65143",
+      "street_name": "Victor Station",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "zip": "57171"
+    },
+    "available_24_7": true,
+    "services": [
+      "Deposit",
+      "Balance Inquiry",
+      "Mini Statement",
+      "Transfer"
+    ]
+  },
+  {
+    "_id": "ATM_01244CC8",
+    "name": "ATM - Caldwell Tunnel",
+    "address": {
+      "street_number": "1477",
+      "street_name": "Kristen Junctions",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "zip": "22759"
+    },
+    "available_24_7": true,
+    "services": [
+      "Balance Inquiry",
+      "Transfer"
+    ]
+  },
+  {
+    "_id": "ATM_11C1AB14",
+    "name": "ATM - Robinson Unions",
+    "address": {
+      "street_number": "56242",
+      "street_name": "Perez Row",
+      "city": "Memphis",
+      "state": "TN",
+      "zip": "45399"
+    },
+    "available_24_7": false,
+    "services": [
+      "Deposit",
+      "Cash Withdrawal",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_2BC77BAC",
+    "name": "ATM - Graham Path",
+    "address": {
+      "street_number": "4210",
+      "street_name": "Reynolds Spur",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zip": "66018"
+    },
+    "available_24_7": false,
+    "services": [
+      "Transfer",
+      "Balance Inquiry",
+      "Cash Withdrawal"
+    ]
+  },
+  {
+    "_id": "ATM_84D63DE4",
+    "name": "ATM - Mark Harbor",
+    "address": {
+      "street_number": "456",
+      "street_name": "Sanchez Harbor",
+      "city": "Baton Rouge",
+      "state": "LA",
+      "zip": "40315"
+    },
+    "available_24_7": true,
+    "services": [
+      "Deposit",
+      "Transfer"
+    ]
+  },
+  {
+    "_id": "ATM_C728AACE",
+    "name": "ATM - Shaw Rapids",
+    "address": {
+      "street_number": "5279",
+      "street_name": "Joseph Isle",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "13206"
+    },
+    "available_24_7": true,
+    "services": [
+      "Balance Inquiry",
+      "Transfer",
+      "Mini Statement",
+      "Deposit"
+    ]
+  },
+  {
+    "_id": "ATM_E5595F87",
+    "name": "ATM - Sarah Alley",
+    "address": {
+      "street_number": "278",
+      "street_name": "Justin Groves",
+      "city": "El Paso",
+      "state": "TX",
+      "zip": "67619"
+    },
+    "available_24_7": true,
+    "services": [
+      "Transfer",
+      "Balance Inquiry",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_ACFCE2D6",
+    "name": "ATM - Timothy Ford",
+    "address": {
+      "street_number": "4253",
+      "street_name": "Phillips Radial",
+      "city": "Henderson",
+      "state": "NV",
+      "zip": "71266"
+    },
+    "available_24_7": true,
+    "services": [
+      "Deposit",
+      "Mini Statement",
+      "Cash Withdrawal",
+      "Balance Inquiry"
+    ]
+  },
+  {
+    "_id": "ATM_A8940912",
+    "name": "ATM - Tran Bypass",
+    "address": {
+      "street_number": "128",
+      "street_name": "Charles Locks",
+      "city": "Lubbock",
+      "state": "TX",
+      "zip": "04687"
+    },
+    "available_24_7": false,
+    "services": [
+      "Mini Statement",
+      "Balance Inquiry"
+    ]
+  },
+  {
+    "_id": "ATM_661DB09E",
+    "name": "ATM - Olson Islands",
+    "address": {
+      "street_number": "7174",
+      "street_name": "Paul Burg",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "87249"
+    },
+    "available_24_7": false,
+    "services": [
+      "Transfer",
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Deposit",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_D0620B45",
+    "name": "ATM - Vanessa Plaza",
+    "address": {
+      "street_number": "87898",
+      "street_name": "Meyer Manors",
+      "city": "Huntsville",
+      "state": "AL",
+      "zip": "44019"
+    },
+    "available_24_7": false,
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Deposit",
+      "Mini Statement",
+      "Transfer"
+    ]
+  },
+  {
+    "_id": "ATM_013443E3",
+    "name": "ATM - Donna Curve",
+    "address": {
+      "street_number": "333",
+      "street_name": "James Road",
+      "city": "Huntsville",
+      "state": "AL",
+      "zip": "20103"
+    },
+    "available_24_7": false,
+    "services": [
+      "Transfer",
+      "Balance Inquiry",
+      "Deposit",
+      "Cash Withdrawal"
+    ]
+  },
+  {
+    "_id": "ATM_1FC74C03",
+    "name": "ATM - Perry Shoal",
+    "address": {
+      "street_number": "748",
+      "street_name": "Williams Motorway",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "39298"
+    },
+    "available_24_7": false,
+    "services": [
+      "Transfer",
+      "Cash Withdrawal",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_B6B72579",
+    "name": "ATM - Green Lock",
+    "address": {
+      "street_number": "117",
+      "street_name": "Simmons Village",
+      "city": "Aurora",
+      "state": "CO",
+      "zip": "42964"
+    },
+    "available_24_7": true,
+    "services": [
+      "Cash Withdrawal",
+      "Mini Statement",
+      "Balance Inquiry",
+      "Deposit"
+    ]
+  },
+  {
+    "_id": "ATM_1226832A",
+    "name": "ATM - Christine Knoll",
+    "address": {
+      "street_number": "72224",
+      "street_name": "Gavin Fort",
+      "city": "Arlington",
+      "state": "TX",
+      "zip": "80816"
+    },
+    "available_24_7": false,
+    "services": [
+      "Mini Statement",
+      "Cash Withdrawal"
+    ]
+  },
+  {
+    "_id": "ATM_E7CB9F9E",
+    "name": "ATM - Amy Shores",
+    "address": {
+      "street_number": "4967",
+      "street_name": "Jones Plaza",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "zip": "91669"
+    },
+    "available_24_7": true,
+    "services": [
+      "Balance Inquiry",
+      "Cash Withdrawal",
+      "Transfer",
+      "Deposit"
+    ]
+  },
+  {
+    "_id": "ATM_1CA134E4",
+    "name": "ATM - Weeks Wall",
+    "address": {
+      "street_number": "83595",
+      "street_name": "Tony Court",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zip": "33622"
+    },
+    "available_24_7": true,
+    "services": [
+      "Balance Inquiry",
+      "Mini Statement"
+    ]
+  },
+  {
+    "_id": "ATM_2C9E36E8",
+    "name": "ATM - Kayla Lodge",
+    "address": {
+      "street_number": "216",
+      "street_name": "Galloway Rest",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "22526"
+    },
+    "available_24_7": false,
+    "services": [
+      "Balance Inquiry",
+      "Transfer",
+      "Cash Withdrawal",
+      "Deposit",
+      "Mini Statement"
+    ]
+  }
+]
