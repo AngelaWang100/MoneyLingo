@@ -106,7 +106,7 @@ const Chat = () => {
         const aiMessage: ChatMessage = {
           id: (Date.now() + 1).toString(),
           sender: "ai",
-          text: response.data.text || "I understand your question. Let me help you with that...",
+          text: response.data.response || "I understand your question. Let me help you with that...",
           time: new Date().toLocaleTimeString([], {
             hour: "2-digit",
             minute: "2-digit"
@@ -152,19 +152,54 @@ const Chat = () => {
   };
 
   const handleVoiceSynthesis = async (text: string) => {
+    if (!text.trim()) return;
+    
     try {
-      const response = await apiClient.synthesizeVoice({
-        text,
-        language: language,
-        voice_id: '21m00Tcm4TlvDq8ikWAM'
-      });
-      
-      if (response.success && response.data?.audio_url) {
-        const audio = new Audio(response.data.audio_url);
-        await audio.play();
+      if ('speechSynthesis' in window) {
+        // Stop any current speech
+        speechSynthesis.cancel();
+        
+        // Create speech utterance
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = 0.8;
+        utterance.pitch = 1;
+        utterance.volume = 1;
+        utterance.lang = language === 'en' ? 'en-US' : language;
+        
+        // Set up event listeners
+        utterance.onstart = () => {
+          toast({
+            title: "🎤 AI Speaking",
+            description: "MoneyLingo is responding with voice",
+            duration: 2000
+          });
+        };
+        
+        utterance.onerror = (e) => {
+          console.error('Speech synthesis error:', e);
+          toast({
+            title: "❌ Speech Error",
+            description: "Failed to speak text",
+            variant: "destructive"
+          });
+        };
+        
+        // Start speaking
+        speechSynthesis.speak(utterance);
+      } else {
+        toast({
+          title: "❌ Speech Not Supported",
+          description: "Your browser doesn't support speech synthesis",
+          variant: "destructive"
+        });
       }
     } catch (error) {
       console.error('Voice synthesis error:', error);
+      toast({
+        title: "❌ Speech Error",
+        description: "Failed to start speech synthesis",
+        variant: "destructive"
+      });
     }
   };
 
