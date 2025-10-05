@@ -1,0 +1,140 @@
+{
+  "session_info": {
+    "start_time": "2025-10-05T03:01:01.964979",
+    "end_time": "2025-10-05T03:01:50.923876",
+    "total_agents_tested": 5,
+    "successful_agents": 5,
+    "failed_agents": 0
+  },
+  "agent_outputs": [
+    {
+      "timestamp": "2025-10-05T03:01:06.137272",
+      "agent_name": "translation_agent",
+      "input_data": {
+        "content": "Compound interest is the interest calculated on the initial principal and the accumulated interest of previous periods. This is a fundamental concept in personal finance and investment planning.",
+        "language": "Spanish",
+        "user_level": "beginner"
+      },
+      "output_data": {
+        "translated_content": "Absolutely! Here's the translation and explanation:\n\n**Translation:**\n\n\"El inter\u00e9s compuesto es el inter\u00e9s calculado sobre el capital inicial y el inter\u00e9s acumulado de per\u00edodos anteriores. Este es un concepto fundamental en las finanzas personales y la planificaci\u00f3n de inversiones.\"\n\n**Explanation:**\n\nLet's break down compound interest in simple terms:\n\n*   **What it is:** Compound interest is like earning interest on your interest. It's a powerful way to grow your money over time.\n\n*   **How it works:**\n\n    1.  You start with an initial amount of money (the \"principal\").\n    2.  You earn interest on that principal.\n    3.  In the next period, you earn interest not only on the original principal but also on the interest you earned in the first period.\n    4.  This process repeats, and your money grows faster and faster because you're earning interest on a larger and larger amount.\n\n*   **Example:**\n\n    *   Let's say you invest \\$100 (your principal) and earn 10% interest per year.\n    *   **Year 1:** You earn \\$10 in interest (\\$100 x 10% = \\$10). Your total is now \\$110.\n    *   **Year 2:** You earn interest on the new total of \\$110. So, you earn \\$11 in interest (\\$110 x 10% = \\$11). Your total is now \\$121.\n    *   **Year 3:** You earn interest on \\$121, which is \\$12.10 (\\$121 x 10% = \\$12.10). Your total is now \\$133.10.\n\n    Notice how the amount of interest you earn each year increases? That's the power of compounding!\n\n*   **Why it matters:** Compound interest is a cornerstone of investing because it allows your money to grow exponentially over time. The earlier you start investing, the more time your money has to compound, and the larger your returns will be.\n\nI hope this explanation is helpful!",
+        "language": "Spanish",
+        "user_level": "beginner",
+        "agent": "translation_agent",
+        "success": true
+      },
+      "execution_time_seconds": 3.344025,
+      "success": true,
+      "response_length": 1736,
+      "voice_enabled": false
+    },
+    {
+      "timestamp": "2025-10-05T03:01:20.488168",
+      "agent_name": "financial_planning_agent",
+      "input_data": {
+        "user_profile": {
+          "age": 28,
+          "income": 75000,
+          "savings": 25000,
+          "debt": 15000,
+          "goals": [
+            "retirement",
+            "house_purchase",
+            "emergency_fund"
+          ]
+        },
+        "request": "Create a comprehensive financial plan for retirement and house purchase"
+      },
+      "output_data": {
+        "ai_recommendations": "Okay, I can help you create a comprehensive financial plan, even with a current income and expense level of $0. This situation requires a very specific and aggressive approach focused on building a foundation for future financial success.  This plan will focus on acquiring income, managing expenses, and setting the stage for future savings and investments.\n\n**Important Disclaimer:** *This plan is based on the information provided. It is crucial to consult with a qualified financial advisor for personalized advice tailored to your specific circumstances and risk tolerance. This plan assumes you are starting from scratch and need to build a financial foundation.*\n\n**Financial Plan: Building a Foundation (1-Year Timeline)**\n\n**I. Goals:**\n\nSince you haven't specified goals, I'll assume the primary goals are:\n\n*   **Goal 1: Generate Income:**  Establish a reliable and sustainable income stream.\n*   **Goal 2: Control Expenses:**  Develop a frugal lifestyle and minimize unnecessary spending.\n*   **Goal 3: Build an Emergency Fund:**  Create a small emergency fund to cover unexpected expenses.\n*   **Goal 4: Develop Financial Literacy:**  Gain knowledge and skills to manage finances effectively.\n\n**II. Current Financial Situation:**\n\n*   **Monthly Income:** $0\n*   **Monthly Expenses:** $0 (This is unlikely in reality. We'll address this below.)\n*   **Assets:**  Assuming minimal to none.\n*   **Liabilities:** Assuming minimal to none.\n\n**III. Actionable Recommendations:**\n\n**1. Budget Allocation (Phase 1: Survival Budget)**\n\n*   **Reality Check:**  Even with $0 reported expenses, you have basic needs (food, shelter, clothing).  We need to identify these *minimum* expenses.  Let's assume you are currently relying on support from family/friends or government assistance.\n*   **Tracking:**  Meticulously track *every* penny spent for the next month. Use a budgeting app (Mint, YNAB, Personal Capital), a spreadsheet, or even a notebook.  Categorize expenses (Housing, Food, Transportation, Healthcare, Personal, Debt Payments (if any), etc.).\n*   **The \"Zero-Based Budget\":**  Every dollar must be assigned a purpose.  Income - Expenses = $0.  This forces you to prioritize.\n*   **Example (Hypothetical - Adjust to your situation):**\n    *   **Housing:** (Rent/Mortgage Assistance, Room & Board) -  $X (Whatever your current housing situation costs)\n    *   **Food:** (Groceries, Food Bank, Meals from Family) - $Y (Minimize this. Focus on affordable, healthy options)\n    *   **Transportation:** (Public Transit, Walking, Biking) - $Z (Minimize this. Explore free or low-cost options)\n    *   **Healthcare:** (Medicaid, Free Clinics) - $A (Essential. Prioritize access to healthcare)\n    *   **Personal:** (Hygiene, Basic Clothing) - $B (Keep this minimal)\n    *   **Debt Payments:** (If any) - $C (Prioritize high-interest debt)\n    *   **Total Expenses:** $X + $Y + $Z + $A + $B + $C =  This number *must* be less than or equal to your income (which is currently $0, so we need to change that).\n\n**2. Savings Strategy (Phase 2: Emergency Fund First)**\n\n*   **The Urgency of Income:**  Savings are impossible without income.  The *absolute priority* is generating income.  See the \"Income Generation Strategies\" below.\n*   **Emergency Fund Goal:**  Start with a *small* emergency fund goal: $500 - $1000.  This is a buffer against unexpected expenses (car repair, medical bill, etc.).\n*   **Savings Vehicle:**  High-Yield Savings Account (HYSA) at an online bank (Ally, Marcus, Discover).  These offer significantly higher interest rates than traditional brick-and-mortar banks.  Even a small interest rate helps.\n*   **Savings Rate:**  Aim to save *at least* 10% of *every* dollar earned.  If you earn $10, save $1.  If you earn $100, save $10.  Make it automatic.\n*   **Example:**  If you start earning $1000/month, save $100/month.  It will take 5-10 months to reach your initial emergency fund goal.\n\n**3. Investment Recommendations (Phase 3: Future Investments)**\n\n*   **Currently Not Applicable:**  With $0 income and the need to build an emergency fund, investing is *not* the priority.  Focus on income generation and savings first.\n*   **Future Investment Strategy (Once Emergency Fund is Established):**\n    *   **Retirement Accounts:**  Roth IRA (if income is below the limit) or Traditional IRA.  These offer tax advantages.\n    *   **Investment Options:**  Low-cost index funds or ETFs (Exchange Traded Funds) that track the S&P 500 or a total stock market index.  These provide diversification and are relatively low-risk for long-term investing.\n    *   **Brokerage Account:**  Consider a taxable brokerage account for investments beyond retirement accounts.\n    *   **Asset Allocation:**  As your income and savings grow, develop an asset allocation strategy based on your risk tolerance and time horizon.  A common starting point is a mix of stocks and bonds.\n\n**4. Risk Assessment:**\n\n*   **High Risk:**  Starting with $0 income is inherently high-risk.  The biggest risks are:\n    *   **Income Instability:**  Lack of a reliable income stream.\n    *   **Unexpected Expenses:**  Without an emergency fund, even small expenses can be devastating.\n    *   **Debt Accumulation:**  Relying on credit cards or loans to cover basic needs can lead to a debt spiral.\n*   **Mitigation Strategies:**\n    *   **Aggressive Income Generation:**  Focus on finding employment or starting a business.\n    *   **Frugal Living:**  Minimize expenses and avoid unnecessary spending.\n    *   **Emergency Fund:**  Build an emergency fund as quickly as possible.\n    *   **Financial Education:**  Learn about personal finance and investing to make informed decisions.\n\n**5. Timeline Milestones (1-Year Plan):**\n\n*   **Month 1-3: Income Generation & Expense Tracking:**\n    *   Secure a job or start a business.\n    *   Track all income and expenses meticulously.\n    *   Create a \"survival budget.\"\n    *   Aim to generate at least $500/month in income.\n*   **Month 4-6: Emergency Fund Building:**\n    *   Continue generating income.\n    *   Save at least 10% of your income.\n    *   Reach $250 - $500 in your emergency fund.\n    *   Refine your budget and identify areas to save more.\n*   **Month 7-9: Emergency Fund Completion & Debt Reduction (If Applicable):**\n    *   Continue generating income and saving.\n    *   Reach your initial emergency fund goal of $500 - $1000.\n    *   If you have any high-interest debt, start paying it down aggressively.\n*   **Month 10-12: Financial Literacy & Future Planning:**\n    *   Continue generating income, saving, and paying down debt.\n    *   Read books, articles, and take online courses on personal finance and investing.\n    *   Research investment options for the future.\n    *   Set new financial goals for the next year.\n\n**IV. Income Generation Strategies (Critical):**\n\n*   **Employment:**\n    *   **Full-time Job:**  The most stable option.  Focus on finding a job that provides a livable wage and benefits.\n    *   **Part-time Job:**  A good starting point.  Look for jobs with flexible hours.\n    *   **Freelancing:**  Offer your skills online (writing, editing, graphic design, web development, etc.).\n    *   **Gig Economy:**  Drive for Uber/Lyft, deliver food for DoorDash/Uber Eats, etc.\n*   **Business:**\n    *   **Start a Small Business:**  Consider starting a small business based on your skills and interests (e.g., cleaning services, lawn care, tutoring).\n    *   **Online Business:**  Sell products or services online (e.g., Etsy shop, affiliate marketing).\n*   **Other Options:**\n    *   **Government Assistance:**  Explore eligibility for unemployment benefits, food stamps (SNAP), and other government programs.\n    *   **Family/Friends:**  Seek temporary financial assistance from family or friends.  Be clear about repayment plans.\n\n**V. Financial Literacy Resources:**\n\n*   **Books:**\n    *   *The Total Money Makeover* by Dave Ramsey\n    *   *The Richest Man in Babylon* by George S. Clason\n    *   *I Will Teach You to Be Rich* by Ramit Sethi\n*   **Websites:**\n    *   NerdWallet\n    *   Investopedia\n    *   The Balance\n*   **Online Courses:**\n    *   Coursera\n    *   edX\n    *   Khan Academy (Free)\n\n**VI. Ongoing Monitoring and Adjustment:**\n\n*   **Regular Review:**  Review your budget, savings, and progress towards your goals *at least* monthly.\n*   **Adjustments:**  Make adjustments to your plan as needed based on changes in your income, expenses, and goals.\n*   **Professional Advice:**  Consider consulting with a financial advisor for personalized advice.\n\n**VII. Key Takeaways:**\n\n*   **Income is King:**  Generating income is the *absolute priority*.\n*   **Frugality is Essential:**  Minimize expenses and live below your means.\n*   **Emergency Fund First:**  Build an emergency fund to protect yourself from unexpected expenses.\n*   **Financial Literacy is Power:**  Educate yourself about personal finance and investing.\n*   **Persistence is Key:**  Building a financial foundation takes time and effort.  Don't give up!\n\nThis plan provides a starting point.  Remember to adapt it to your specific circumstances and seek professional advice when needed. Good luck!",
+        "backend_plan": {
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /plan (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107dc0440>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+        },
+        "transaction_insights": {
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /transactions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107dca490>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+        },
+        "agent": "financial_planning_agent",
+        "success": true
+      },
+      "execution_time_seconds": 14.349858,
+      "success": true,
+      "response_length": 9168,
+      "voice_enabled": false
+    },
+    {
+      "timestamp": "2025-10-05T03:01:32.244325",
+      "agent_name": "remittance_agent",
+      "input_data": {
+        "amount": 2500,
+        "currency": "USD",
+        "destination": "Mexico",
+        "user_preferences": {
+          "speed": "fast",
+          "cost": "low",
+          "security": "high"
+        }
+      },
+      "output_data": {
+        "ai_analysis": "Okay, I can analyze this remittance request for $2500 USD to Mexico.  However, to provide a truly accurate and helpful analysis, I need more information.  Specifically, I need the following:\n\n*   **From:**  What country is the money being sent from? This is *crucial* for determining fees, exchange rates, and compliance.\n*   **To:**  How does the sender want the recipient to receive the money? (e.g., bank account deposit, cash pickup, mobile wallet). This significantly impacts cost, speed, and convenience.\n*   **Specific Location in Mexico:** Knowing the city or region in Mexico helps refine cost estimates and identify available service providers.\n*   **Sender's Preferred Payment Method:** How will the sender pay for the transfer? (e.g., bank transfer, debit card, credit card, cash). This affects fees and processing times.\n*   **Sender and Recipient Details:** While I don't need personally identifiable information (PII) for this analysis, knowing if either party has a history with a particular service or bank can influence the options available.\n\n**Assuming a Common Scenario (for illustrative purposes):**\n\nLet's *assume* the money is being sent from the **United States** to **Mexico City** and the recipient wants to receive it as a **bank deposit**.  The sender will pay via **debit card**.\n\n**Here's an analysis based on that assumption:**\n\n**1. Cost Analysis (Fees, Exchange Rates):**\n\n*   **Exchange Rate:**  The USD/MXN exchange rate fluctuates constantly.  Let's assume a rate of 1 USD = 17.5 MXN for this example.  Therefore, $2500 USD would be approximately 43,750 MXN.  *Important Note:*  The exchange rate offered by remittance providers is *almost always* less favorable than the mid-market rate you see on Google or XE.com. This difference is a source of profit for the provider.\n*   **Fees:** Fees vary *significantly* depending on the provider.\n    *   **Traditional Wire Transfers (e.g., through a bank):**  These tend to have higher fees, often in the range of $25-$50 USD, *plus* potentially unfavorable exchange rates.  Some banks also charge receiving fees in Mexico.\n    *   **Online Remittance Providers (e.g., Wise (formerly TransferWise), Remitly, Xoom (PayPal), WorldRemit):** These generally offer lower fees and more competitive exchange rates than traditional banks.  Fees can range from $5-$20 USD for this amount, *but* they can be higher depending on the payment method (debit card vs. bank transfer) and the speed of transfer.  Some providers offer promotional rates for first-time users.\n    *   **Money Transfer Companies (e.g., Western Union, MoneyGram):**  These often have higher fees than online providers, especially for debit/credit card payments.  Fees can be in the $20-$40 range or higher.  However, they offer the advantage of cash pickup, which can be important if the recipient doesn't have a bank account.\n*   **Hidden Costs:**  Be aware of potential hidden costs:\n    *   **Correspondent Bank Fees:**  For wire transfers, intermediary banks might deduct fees from the transferred amount.\n    *   **Receiving Bank Fees:**  The recipient's bank in Mexico might charge a fee to receive the transfer.\n*   **Example Cost Breakdown (using Remitly as an example):**\n    *   Amount: $2500 USD\n    *   Exchange Rate: 1 USD = 17.4 MXN (slightly worse than the mid-market rate)\n    *   Fee (Debit Card Payment): $15 USD (this is an estimate; it can vary)\n    *   Total Cost to Sender: $2515 USD\n    *   Amount Received in Mexico: 43,500 MXN (approximately)\n\n**2. Time Estimates:**\n\n*   **Traditional Wire Transfers:**  1-5 business days.  Can be longer if there are issues with the recipient's bank details or compliance checks.\n*   **Online Remittance Providers:**  Often much faster.  Some offer \"express\" options with delivery in minutes, while standard transfers might take 1-2 business days.  Debit card payments are usually faster than bank transfers.\n*   **Money Transfer Companies (Cash Pickup):**  Often available within minutes, but can depend on the agent's operating hours.\n*   **Factors Affecting Speed:**\n    *   Payment method (debit card faster than bank transfer)\n    *   Time of day (transfers initiated late in the day might not be processed until the next business day)\n    *   Weekend/holidays\n    *   Compliance checks\n\n**3. Risk Assessment:**\n\n*   **Fraud:**  Remittance scams are common.  The sender should only send money to people they know and trust.  Be wary of requests for money from strangers or for unexpected expenses.\n*   **Incorrect Recipient Details:**  Double-check the recipient's bank account number, CLABE (Mexican bank code), and name.  Incorrect details can lead to delays or the money being sent to the wrong person.\n*   **Exchange Rate Fluctuations:**  The exchange rate can change between the time the transfer is initiated and when it's completed.  This can affect the amount the recipient receives.  Some providers offer rate lock options.\n*   **Provider Reliability:**  Choose a reputable and licensed remittance provider.  Check online reviews and ratings.\n*   **AML/KYC Compliance:**  Remittance providers are required to comply with anti-money laundering (AML) and know-your-customer (KYC) regulations.  This means they might ask for identification and information about the purpose of the transfer.  Large transfers are more likely to trigger scrutiny.\n*   **Political/Economic Instability:**  While Mexico is generally stable, political or economic events can impact the exchange rate and the ability to transfer money.\n\n**4. Alternative Options:**\n\n*   **Wise (formerly TransferWise):**  Often offers very competitive exchange rates and low fees.\n*   **Remitly:**  Popular for transfers to Mexico, with a focus on speed and convenience.\n*   **Xoom (PayPal):**  Convenient if the sender or recipient already has a PayPal account.\n*   **WorldRemit:**  Offers a wide range of delivery options, including bank deposit, cash pickup, and mobile money.\n*   **OFX:** Good for larger transfers as they offer competitive exchange rates and personalized service.\n*   **Bank-to-Bank Transfer:**  If both the sender and recipient have accounts at major international banks, a direct bank transfer might be an option, but it's often more expensive.\n*   **Cryptocurrency (with caution):**  While possible, using cryptocurrency for remittances is generally not recommended for most people due to volatility, complexity, and regulatory uncertainty.\n\n**5. Compliance Considerations:**\n\n*   **AML/KYC Regulations:**  As mentioned above, remittance providers must comply with AML/KYC regulations.  The sender might need to provide identification, proof of address, and information about the source of funds.  The recipient might also be subject to KYC checks.\n*   **Reporting Requirements:**  Large transfers (typically over $10,000 USD) might need to be reported to regulatory authorities.\n*   **Sanctions Screening:**  Remittance providers must screen transactions against sanctions lists to ensure that money is not being sent to prohibited individuals or entities.\n*   **Mexican Regulations:**  Mexico has its own regulations regarding remittances, including reporting requirements and limits on the amount of money that can be received.\n\n**Recommendations (Based on the Assumed Scenario):**\n\n1.  **Compare Providers:**  Use online tools to compare fees and exchange rates from different providers (Wise, Remitly, Xoom, WorldRemit).\n2.  **Consider Speed vs. Cost:**  If speed is critical, be prepared to pay a higher fee.  If cost is the primary concern, opt for a slower transfer method.\n3.  **Double-Check Details:**  Carefully verify the recipient's bank account number, CLABE, and name.\n4.  **Use a Reputable Provider:**  Choose a licensed and reputable remittance provider.\n5.  **Be Aware of Scams:**  Only send money to people you know and trust.\n\n**To provide a more accurate and tailored analysis, please provide the missing information I requested at the beginning of this response.**",
+        "remittance_data": {
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /remittance (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107dcb610>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+        },
+        "agent": "remittance_agent",
+        "success": true
+      },
+      "execution_time_seconds": 11.755289,
+      "success": true,
+      "response_length": 7985,
+      "voice_enabled": false
+    },
+    {
+      "timestamp": "2025-10-05T03:01:49.241676",
+      "agent_name": "voice_translation_agent",
+      "input_data": {
+        "content": "Here's your personalized retirement plan with XRPL remittance options for international transfers.",
+        "language": "Spanish",
+        "user_level": "intermediate"
+      },
+      "output_data": {
+        "translated_content": "\u00a1Aqu\u00ed est\u00e1 tu plan de jubilaci\u00f3n personalizado con opciones de remesas XRPL para transferencias internacionales!\n\n**Explanation:**\n\nThis sentence is announcing a retirement plan that includes a specific feature: using XRPL (XRP Ledger) for international money transfers. Let's break it down:\n\n*   **Plan de jubilaci\u00f3n personalizado:** This means a retirement plan that has been specifically designed to fit your individual needs and goals. It's not a one-size-fits-all plan.\n    *   *Ejemplo:* Maybe it takes into account your risk tolerance, how long you have until retirement, and how much you can afford to save.\n*   **Opciones de remesas XRPL:** This is where it gets interesting. \"Remesas\" are international money transfers. XRPL (XRP Ledger) is a decentralized technology (like a blockchain) designed for fast and cheap international payments.\n    *   *Ejemplo:* Imagine you want to send money to family in another country. Traditionally, this involves banks and can take days and cost a lot in fees. Using XRPL, the transfer could be much faster and cheaper.\n*   **Transferencias internacionales:** This simply refers to sending money across borders.\n\n**In simpler terms:**\n\nThis means you have a retirement plan that offers you the option to use a modern, potentially faster and cheaper method (XRPL) to send money internationally, perhaps to family living abroad or for international investments related to your retirement.\n\n**Important Considerations (not explicitly stated, but relevant):**\n\n*   **Fees:** While XRPL *can* be cheaper, it's important to understand all the fees involved in using this method within the retirement plan.\n*   **Security:** Understand the security measures in place when using XRPL. While blockchain technology is generally secure, you should be aware of potential risks.\n*   **Regulations:** International money transfers are subject to regulations. Make sure the plan complies with all applicable laws.\n*   **Volatility:** While XRPL is used for remittance, the underlying asset XRP can be volatile. Understand if your retirement plan involves holding XRP and the associated risks.\n\nIn summary, this retirement plan is highlighting a modern feature for international money transfers, but it's crucial to understand the details and potential risks before using it.",
+        "language": "Spanish",
+        "user_level": "intermediate",
+        "agent": "voice_translation_agent",
+        "success": true,
+        "voice": {
+          "success": true,
+          "agent": "voice_translation_agent",
+          "voice_file": "voice_outputs/voice_output_3618.mp3",
+          "text": "Hello, I'm your voice_translation_agent assistant. \u00a1Aqu\u00ed est\u00e1 tu plan de jubilaci\u00f3n personalizado con opciones de remesas XRPL para transferencias internacionales!\n\n**Explanation:**\n\nThis sentence is announcing a retirement plan that includes a specific feature: using XRPL (XRP Ledger) for international money transfers. Let's break it down:\n\n*   **Plan de jubilaci\u00f3n personalizado:** This means a retirement plan that has been specifically designed to fit your individual needs and goals. It's not a one-size-fits-all plan.\n    *   *Ejemplo:* Maybe it takes into account your risk tolerance, how long you have until retirement, and how much you can afford to save.\n*   **Opciones de remesas XRPL:** This is where it gets interesting. \"Remesas\" are international money transfers. XRPL (XRP Ledger) is a decentralized technology (like a blockchain) designed for fast and cheap international payments.\n    *   *Ejemplo:* Imagine you want to send money to family in another country. Traditionally, this involves banks and can take days and cost a lot in...",
+          "language": "es"
+        }
+      },
+      "execution_time_seconds": 16.930996,
+      "success": true,
+      "response_length": 2305,
+      "voice_enabled": false
+    },
+    {
+      "timestamp": "2025-10-05T03:01:50.923777",
+      "agent_name": "elevenlabs_voice_service",
+      "input_data": {
+        "text": "Welcome to RealityCheck, your AI-powered financial assistant. I can help you with retirement planning, international remittances, and financial translations.",
+        "language": "en"
+      },
+      "output_data": {
+        "success": true,
+        "filepath": "voice_outputs/voice_output_6624.mp3",
+        "filename": "voice_output_6624.mp3",
+        "voice_id": "21m00Tcm4TlvDq8ikWAM",
+        "text_length": 157,
+        "language": "en"
+      },
+      "execution_time_seconds": 1.682017,
+      "success": true,
+      "response_length": 0,
+      "voice_enabled": false
+    }
+  ]
+}

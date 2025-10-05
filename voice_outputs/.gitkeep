@@ -1,0 +1,2 @@
+# This file ensures the voice_outputs directory is tracked by git
+# Voice files will be ignored by .gitignore but directory structure is preserved
