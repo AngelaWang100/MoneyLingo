@@ -1,5 +1,5 @@
 """
-Monetization service for RealityCheck agents
+Monetization service for MoneyLingo agents
 """
 import os
 import logging
@@ -9,11 +9,11 @@ import json
 
 from .echo_integration import EchoMonetizationService
 
-class RealityCheckMonetization:
-    """Monetization service for RealityCheck financial assistant"""
+class MoneyLingoMonetization:
+    """Monetization service for MoneyLingo financial assistant"""
     
     def __init__(self):
-        self.logger = logging.getLogger("realitycheck_monetization")
+        self.logger = logging.getLogger("moneylingo_monetization")
         self.echo_service = EchoMonetizationService()
         
         # Define service pricing

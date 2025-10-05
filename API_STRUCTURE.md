@@ -1,13 +1,13 @@
-# RealityCheck API Structure
+# MoneyLingo API Structure
 
 ## 🏗️ New Backend Architecture
 
-The RealityCheck project has been refactored into a clean, modular FastAPI structure following enterprise best practices.
+The MoneyLingo project has been refactored into a clean, modular FastAPI structure following enterprise best practices.
 
 ### 📁 Directory Structure
 
 ```
-RealityCheck/
+MoneyLingo/
 ├── main_new.py                 # New FastAPI application entry point
 ├── api/                        # Backend API components
 │   ├── __init__.py

@@ -1,5 +1,5 @@
 """
-Main application entry point for RealityCheck agent system
+Main application entry point for MoneyLingo agent system
 Refactored with clean API structure
 """
 import os

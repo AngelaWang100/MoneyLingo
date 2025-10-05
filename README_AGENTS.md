@@ -1,7 +1,7 @@
-# RealityCheck Agent System
+# MoneyLingo Agent System
 
 ## Overview
-This is the **Person 3** component of the RealityCheck hackathon project, focusing on **Agents, LLM/AI, Observability, and Demo**. The system implements a multi-agent architecture using LangChain and LangGraph to orchestrate financial planning, translation, and remittance operations.
+This is the **Person 3** component of the MoneyLingo hackathon project, focusing on **Agents, LLM/AI, Observability, and Demo**. The system implements a multi-agent architecture using LangChain and LangGraph to orchestrate financial planning, translation, and remittance operations.
 
 ## 🏗️ Architecture
 

@@ -1,5 +1,5 @@
 """
-Main application entry point for RealityCheck agent system
+Main application entry point for MoneyLingo agent system
 """
 import os
 import asyncio
@@ -14,7 +14,7 @@ from agents.voice_translation_agent import VoiceTranslationAgent
 from agents.auto_language_voice_agent import AutoLanguageVoiceAgent
 from voice.elevenlabs_service import ElevenLabsVoiceService
 from observability.comet_integration import CometObserver
-from monetization.monetization_service import RealityCheckMonetization
+from monetization.monetization_service import MoneyLingoMonetization
 
 # Load environment variables
 load_dotenv()
@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="RealityCheck Agent System",
+    title="MoneyLingo Agent System",
     description="Multi-agent system for financial planning and remittance",
     version="1.0.0"
 )
@@ -36,7 +36,7 @@ observer = CometObserver()
 voice_translation_agent = VoiceTranslationAgent()
 auto_language_voice_agent = AutoLanguageVoiceAgent()
 voice_service = ElevenLabsVoiceService()
-monetization_service = RealityCheckMonetization()
+monetization_service = MoneyLingoMonetization()
 
 # Pydantic models
 class FinancialRequest(BaseModel):
