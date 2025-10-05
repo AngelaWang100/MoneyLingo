@@ -1,8 +1,8 @@
-# MoneyLingo - AI Financial Assistant
+# MoneyLingual - AI Financial Assistant
 
 ## 🎯 Overview
 
-**MoneyLingo** is a multilingual voice-enabled AI financial assistant that provides personalized financial guidance in any language. Built with cutting-edge AI technology including Google Gemini, ElevenLabs voice synthesis, and XRPL blockchain integration.
+**MoneyLingual** is a multilingual voice-enabled AI financial assistant that provides personalized financial guidance in any language. Built with cutting-edge AI technology including Google Gemini, ElevenLabs voice synthesis, and XRPL blockchain integration.
 
 ## 🏆 Hackathon Prizes
 
@@ -71,8 +71,8 @@ This project is designed to win multiple hackathon prizes:
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/moneylingo.git
-cd moneylingo
+git clone https://github.com/yourusername/moneylingual.git
+cd moneylingual
 
 # Install dependencies
 pip install -r requirements.txt
@@ -98,7 +98,7 @@ ECHO_API_KEY=your_echo_api_key
 ECHO_CLIENT_ID=your_echo_client_id
 ECHO_CLIENT_SECRET=your_echo_client_secret
 ECHO_MERCHANT_ID=your_echo_merchant_id
-ECHO_PROJECT_NAME=MoneyLingo Financial Assistant
+ECHO_PROJECT_NAME=MoneyLingual Financial Assistant
 ```
 
 ## 🧪 Testing
@@ -241,7 +241,7 @@ vercel
 ## 📁 Project Structure
 
 ```
-moneylingo/
+moneylingual/
 ├── agents/                 # AI agents
 │   ├── base_agent.py      # Base agent class
 │   ├── translation_agent.py
@@ -285,6 +285,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🚀 Ready to Win!
 
-**MoneyLingo is ready to dominate the hackathon with its complete AI financial assistant, multilingual voice capabilities, and monetization system!**
+**MoneyLingual is ready to dominate the hackathon with its complete AI financial assistant, multilingual voice capabilities, and monetization system!**
 
 **Built for: Echo AI Challenge, ElevenLabs Prize, Google Gemini Integration, Comet Observability, and XRPL Blockchain!** 🏆💰🎤
