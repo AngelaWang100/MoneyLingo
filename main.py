@@ -11,8 +11,10 @@ from typing import Dict, Any, List
 
 from agents.orchestrator import AgentOrchestrator
 from agents.voice_translation_agent import VoiceTranslationAgent
+from agents.auto_language_voice_agent import AutoLanguageVoiceAgent
 from voice.elevenlabs_service import ElevenLabsVoiceService
 from observability.comet_integration import CometObserver
+from monetization.monetization_service import RealityCheckMonetization
 
 # Load environment variables
 load_dotenv()
@@ -32,7 +34,9 @@ app = FastAPI(
 orchestrator = AgentOrchestrator()
 observer = CometObserver()
 voice_translation_agent = VoiceTranslationAgent()
+auto_language_voice_agent = AutoLanguageVoiceAgent()
 voice_service = ElevenLabsVoiceService()
+monetization_service = RealityCheckMonetization()
 
 # Pydantic models
 class FinancialRequest(BaseModel):
@@ -193,6 +197,29 @@ async def synthesize_voice(text: str, language: str = "en"):
         logger.error(f"Voice synthesis failed: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.post("/voice/auto-language")
+async def auto_language_voice(request: TranslationRequest):
+    """Process voice with automatic language detection"""
+    try:
+        observer.log_agent_start("auto_language_voice_agent", request.dict())
+        
+        input_data = {
+            "content": request.content,
+            "language": request.language,
+            "user_level": request.user_level
+        }
+        
+        result = await auto_language_voice_agent.process_with_voice(input_data)
+        
+        observer.log_agent_end("auto_language_voice_agent", result, result.get("success", False))
+        
+        return result
+        
+    except Exception as e:
+        logger.error(f"Auto-language voice processing failed: {e}")
+        observer.log_error("auto_language_voice_agent", str(e), {"request": request.dict()})
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.get("/voice/status")
 async def voice_status():
     """Get voice service status"""
@@ -201,6 +228,71 @@ async def voice_status():
     except Exception as e:
         logger.error(f"Voice status check failed: {e}")
         return {"error": str(e)}
+
+# Monetization endpoints
+@app.get("/monetization/subscription/{user_id}")
+async def get_subscription_info(user_id: str):
+    """Get user subscription information"""
+    try:
+        result = monetization_service.get_user_subscription_info(user_id)
+        return result
+    except Exception as e:
+        logger.error(f"Subscription info retrieval failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/monetization/pricing")
+async def get_pricing_info():
+    """Get pricing information for all services"""
+    try:
+        return {
+            "success": True,
+            "pricing": monetization_service.service_pricing,
+            "currency": "USD",
+            "description": "RealityCheck AI Financial Assistant Pricing"
+        }
+    except Exception as e:
+        logger.error(f"Pricing info retrieval failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/monetization/check-access")
+async def check_user_access(user_id: str, service_type: str):
+    """Check if user has access to a service"""
+    try:
+        result = monetization_service.check_user_access(user_id, service_type)
+        return result
+    except Exception as e:
+        logger.error(f"Access check failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/monetization/process-request")
+async def process_monetized_request(user_id: str, service_type: str, request_data: dict):
+    """Process a service request with monetization"""
+    try:
+        result = monetization_service.process_service_request(user_id, service_type, request_data)
+        return result
+    except Exception as e:
+        logger.error(f"Monetized request processing failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/monetization/analytics")
+async def get_monetization_analytics(start_date: str = None, end_date: str = None):
+    """Get monetization analytics"""
+    try:
+        result = monetization_service.get_monetization_analytics(start_date, end_date)
+        return result
+    except Exception as e:
+        logger.error(f"Analytics retrieval failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/monetization/create-plans")
+async def create_subscription_plans():
+    """Create subscription plans"""
+    try:
+        result = monetization_service.create_subscription_plans()
+        return result
+    except Exception as e:
+        logger.error(f"Plan creation failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn

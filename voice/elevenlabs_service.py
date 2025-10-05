@@ -89,15 +89,21 @@ class ElevenLabsVoiceService:
             return {"error": str(e)}
     
     def _get_default_voice_for_language(self, language: str) -> str:
-        """Get default voice ID for language"""
-        # Default voices for different languages
+        """Get default voice ID for language with optimized voice selection"""
+        # Optimized voices for different languages
         default_voices = {
-            "en": "21m00Tcm4TlvDq8ikWAM",  # Rachel (English)
-            "es": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual)
-            "fr": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual)
-            "de": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual)
-            "it": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual)
-            "pt": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual)
+            "en": "21m00Tcm4TlvDq8ikWAM",  # Rachel (English, clear and professional)
+            "es": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Spanish)
+            "fr": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for French)
+            "de": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for German)
+            "it": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Italian)
+            "pt": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Portuguese)
+            "zh": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Chinese)
+            "ja": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Japanese)
+            "ko": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Korean)
+            "ar": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Arabic)
+            "hi": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Hindi)
+            "ru": "21m00Tcm4TlvDq8ikWAM",  # Rachel (multilingual, good for Russian)
         }
         return default_voices.get(language, "21m00Tcm4TlvDq8ikWAM")
     
@@ -125,6 +131,67 @@ class ElevenLabsVoiceService:
         except Exception as e:
             self.logger.error(f"Agent voice response failed: {e}")
             return {"error": str(e)}
+    
+    def detect_language(self, text: str) -> str:
+        """Detect the language of the input text"""
+        # Simple language detection based on common patterns
+        text_lower = text.lower()
+        
+        # Spanish indicators
+        if any(word in text_lower for word in ['hola', 'gracias', 'por favor', 'dinero', 'ahorro', 'inversión']):
+            return "es"
+        
+        # French indicators
+        if any(word in text_lower for word in ['bonjour', 'merci', 'argent', 'épargne', 'investissement']):
+            return "fr"
+        
+        # German indicators
+        if any(word in text_lower for word in ['hallo', 'danke', 'geld', 'sparen', 'investition']):
+            return "de"
+        
+        # Italian indicators
+        if any(word in text_lower for word in ['ciao', 'grazie', 'denaro', 'risparmio', 'investimento']):
+            return "it"
+        
+        # Portuguese indicators
+        if any(word in text_lower for word in ['olá', 'obrigado', 'dinheiro', 'poupança', 'investimento']):
+            return "pt"
+        
+        # Chinese indicators
+        if any(char in text for char in '你好谢谢钱储蓄投资'):
+            return "zh"
+        
+        # Japanese indicators
+        if any(char in text for char in 'こんにちはありがとうお金貯金投資'):
+            return "ja"
+        
+        # Korean indicators
+        if any(char in text for char in '안녕하세요감사합니다돈저축투자'):
+            return "ko"
+        
+        # Arabic indicators
+        if any(char in text for char in 'مرحباشكراالمالادخارالاستثمار'):
+            return "ar"
+        
+        # Hindi indicators
+        if any(word in text_lower for word in ['नमस्ते', 'धन्यवाद', 'पैसा', 'बचत', 'निवेश']):
+            return "hi"
+        
+        # Russian indicators
+        if any(word in text_lower for word in ['привет', 'спасибо', 'деньги', 'сбережения', 'инвестиции']):
+            return "ru"
+        
+        # Default to English
+        return "en"
+    
+    def synthesize_speech_auto_language(self, text: str) -> Dict[str, Any]:
+        """Synthesize speech with automatic language detection"""
+        detected_language = self.detect_language(text)
+        self.logger.info(f"Auto-detected language: {detected_language}")
+        
+        result = self.synthesize_speech(text, language=detected_language)
+        result["detected_language"] = detected_language
+        return result
     
     def create_multilingual_response(self, text: str, languages: list) -> Dict[str, Any]:
         """Create voice responses in multiple languages"""
