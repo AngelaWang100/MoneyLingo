@@ -106,32 +106,16 @@ const Chat = () => {
         const aiMessage: ChatMessage = {
           id: (Date.now() + 1).toString(),
           sender: "ai",
-          text: response.data.response || "I understand your question. Let me help you with that...",
-          time: new Date().toLocaleTimeString([], {
-            hour: "2-digit",
-            minute: "2-digit"
-          }),
-          audioUrl: response.data.audioUrl
-        };
-        setMessages(prev => [...prev, aiMessage]);
-      } else {
-        // Fallback response if API fails
-        const aiMessage: ChatMessage = {
-          id: (Date.now() + 1).toString(),
-          sender: "ai",
-          text: "I understand your question. Let me explain that in simple terms...",
+          text: response.data.response,
           time: new Date().toLocaleTimeString([], {
             hour: "2-digit",
             minute: "2-digit"
           })
         };
         setMessages(prev => [...prev, aiMessage]);
-        
-        toast({
-          title: "⚠️ Using offline mode",
-          description: "Backend connection failed. Showing sample response.",
-          duration: 3000
-        });
+      } else {
+        // No fallbacks - backend AI is required
+        throw new Error("Backend AI service is required - no static fallbacks available");
       }
     } catch (error) {
       console.error('Chat API error:', error);

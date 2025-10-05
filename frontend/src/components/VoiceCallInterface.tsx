@@ -77,6 +77,7 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const recognitionRef = useRef<SpeechRecognition | null>(null);
   const finalTranscriptRef = useRef<string>("");
+  const conversationRef = useRef<HTMLDivElement | null>(null);
   const { toast } = useToast();
 
   // Handle voice synthesis using Web Speech API
@@ -293,10 +294,10 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
       // Try to get AI response from backend first
       let aiResponse = await getAIResponseFromBackend(text);
       
-      // Fallback to mock response if backend fails
+      // No fallbacks - backend AI is required
       if (!aiResponse) {
-        console.log('⚠️ Backend failed, using mock response');
-        aiResponse = await generateAIResponse(text);
+        console.error('❌ Backend AI service failed - no fallbacks available');
+        throw new Error("Backend AI service is required for voice processing");
       }
       
       console.log('🤖 AI Response received:', aiResponse);
@@ -341,30 +342,10 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
     }
   };
 
-  // Generate AI response (mock implementation)
+  // Generate AI response - no fallbacks, must use backend
   const generateAIResponse = async (userInput: string): Promise<string> => {
-    // Mock AI responses based on input
-    const responses = {
-      'hello': "Hello! I'm your MoneyLingo financial assistant. How can I help you today?",
-      'help': "I can help you with budgeting, saving, investing, credit management, and financial planning. What would you like to know?",
-      'budget': "Let me help you create a budget. First, tell me about your monthly income and expenses.",
-      'save': "Great! Let's talk about saving strategies. What's your current financial goal?",
-      'invest': "Investing can help grow your wealth over time. What's your investment timeline and risk tolerance?",
-      'credit': "Credit management is crucial for financial health. I can help you understand credit scores, building credit, and managing debt.",
-      'debt': "Let's tackle your debt together. What types of debt do you have and what are the interest rates?",
-      'retirement': "Planning for retirement is important at any age. Let's discuss your retirement goals and timeline.",
-      'tax': "Tax planning can save you money. I can help you understand deductions, credits, and tax-advantaged accounts."
-    };
-    
-    const lowerInput = userInput.toLowerCase();
-    
-    for (const [keyword, response] of Object.entries(responses)) {
-      if (lowerInput.includes(keyword)) {
-        return response;
-      }
-    }
-    
-    return `I understand you're asking about "${userInput}". As your financial assistant, I'm here to help with budgeting, saving, investing, credit, and financial planning. Could you be more specific about what you'd like to know?`;
+    // No static fallbacks - all responses must come from AI backend
+    throw new Error("Backend AI service is required - no static fallbacks available");
   };
 
   // Start listening
@@ -421,6 +402,13 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
     };
   }, [isActive, isMuted, isAISpeaking, isProcessing]);
 
+  // Auto-scroll to bottom of conversation
+  useEffect(() => {
+    if (conversationRef.current) {
+      conversationRef.current.scrollTop = conversationRef.current.scrollHeight;
+    }
+  }, [conversationHistory]);
+
   // Cleanup audio on unmount
   useEffect(() => {
     return () => {
@@ -441,7 +429,7 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
       <div className="absolute top-20 right-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-float pointer-events-none" />
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse-slow pointer-events-none" />
       
-      <div className="relative h-full flex flex-col items-center justify-between py-12 px-4 sm:px-6 gap-8">
+      <div className="relative h-full flex flex-col items-center py-8 px-4 sm:px-6 gap-4 overflow-y-auto">
         {/* Status indicator */}
         <div className="text-center animate-fade-in-up flex-shrink-0">
           <div className="glass-card px-6 py-3 rounded-full inline-flex items-center gap-2">
@@ -470,7 +458,7 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
         )}
 
         {/* Main sound wave circle - centered with proper spacing */}
-        <div className="relative flex items-center justify-center flex-1 max-h-[450px]">
+        <div className="relative flex items-center justify-center flex-shrink-0 max-h-[300px]">
           {/* Outer rings with glass effect */}
           {[...Array(3)].map((_, i) => (
             <div
@@ -501,7 +489,7 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
         </div>
 
         {/* Bottom section with buttons and info */}
-        <div className="flex flex-col items-center gap-6 w-full flex-shrink-0">
+        <div className="flex flex-col items-center gap-4 w-full flex-shrink-0">
           {/* Call info */}
           <div className="text-center animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <p className="text-xl font-semibold mb-2">
@@ -573,7 +561,10 @@ export const VoiceCallInterface = ({ isActive, onEnd }: VoiceCallInterfaceProps)
           {/* Conversation Display */}
           {conversationHistory.length > 0 && (
             <div className="w-full max-w-2xl animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-              <div className="glass-card p-4 rounded-2xl max-h-48 overflow-y-auto">
+              <div 
+                ref={conversationRef}
+                className="glass-card p-4 rounded-2xl max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-primary/20 scrollbar-track-transparent"
+              >
                 <div className="space-y-3">
                   {conversationHistory.map((message, index) => (
                     <div

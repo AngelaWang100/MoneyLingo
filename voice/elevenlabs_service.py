@@ -11,7 +11,7 @@ class ElevenLabsVoiceService:
     
     def __init__(self):
         self.logger = logging.getLogger("elevenlabs_service")
-        self.api_key = os.getenv("ELEVENLABS_API_KEY")
+        self.api_key = "sk_eb8f1fa7a20cfa5ee17ebedd0a6eeb81144c6c032dd887aa"
         
         if not self.api_key:
             self.logger.warning("ELEVENLABS_API_KEY not found. Voice synthesis will be disabled.")

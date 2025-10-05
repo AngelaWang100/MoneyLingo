@@ -31,7 +31,7 @@ class TavilyResearchAgent(BaseAgent):
         )
         
         # Tavily MCP Server configuration
-        self.tavily_api_key = os.getenv("TAVILY_API_KEY")
+        self.tavily_api_key = "tvly-1234567890abcdef"  # Placeholder - replace with actual Tavily API key
         self.tavily_base_url = "https://api.tavily.com"
         
         # Financial research domains

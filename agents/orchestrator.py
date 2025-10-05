@@ -4,7 +4,6 @@ Main orchestrator for coordinating all agents
 import asyncio
 from typing import Dict, Any, List
 from langgraph.graph import StateGraph, END
-from langgraph.graph.message import add_messages
 from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
 import logging
 
@@ -26,7 +25,14 @@ class AgentOrchestrator:
     
     def _build_graph(self):
         """Build the LangGraph workflow"""
-        workflow = StateGraph({"messages": add_messages})
+        from langgraph.graph import StateGraph, END
+        
+        from typing import TypedDict
+        
+        class AgentState(TypedDict):
+            messages: list[BaseMessage]
+        
+        workflow = StateGraph(AgentState)
         
         # Add nodes for each agent
         workflow.add_node("translation", self._translation_node)

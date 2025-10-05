@@ -61,13 +61,8 @@ async def create_xrpl_transaction(
     """Create XRPL transaction"""
     try:
         # This would integrate with XRPL testnet
-        # For now, return mock response
-        return XRPLTransactionResponse(
-            success=True,
-            transaction_id="mock_tx_12345",
-            fees=0.000012,
-            status="pending"
-        )
+        # Real XRPL integration required - no mock responses
+        raise NotImplementedError("Real XRPL backend is required - no mock responses available")
         
     except Exception as e:
         logger.error(f"XRPL transaction failed: {e}")
@@ -80,14 +75,8 @@ async def create_xrpl_transaction(
 async def get_transaction_status(transaction_id: str) -> Dict[str, Any]:
     """Get XRPL transaction status"""
     try:
-        # Mock status check
-        return {
-            "success": True,
-            "transaction_id": transaction_id,
-            "status": "confirmed",
-            "fees": 0.000012,
-            "block_height": 12345
-        }
+        # Real XRPL status check required - no mock responses
+        raise NotImplementedError("Real XRPL backend is required - no mock responses available")
     except Exception as e:
         logger.error(f"Transaction status check failed: {e}")
         raise HTTPException(

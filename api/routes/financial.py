@@ -97,16 +97,8 @@ async def get_financial_analytics(
     """Get financial analytics and insights"""
     try:
         # This would typically query a database for analytics
-        # For now, return mock data
-        return {
-            "success": True,
-            "analytics": {
-                "total_plans_created": 150,
-                "average_income": 5000,
-                "common_goals": ["retirement", "emergency_fund", "home_purchase"],
-                "success_rate": 0.85
-            }
-        }
+        # Real financial data required - no mock responses
+        raise NotImplementedError("Real financial backend is required - no mock responses available")
     except Exception as e:
         logger.error(f"Analytics retrieval failed: {e}")
         raise HTTPException(

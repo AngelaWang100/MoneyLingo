@@ -1,35 +1,29 @@
-# This is a placeholder for a real translation service.
+# Translation Service - No Mock Responses
+# All translations must come from real AI backend
 
 import logging
+from typing import Dict, Any
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class TranslationService:
     """
-    A placeholder service for translating text.
-    Currently, it returns the original text with a note.
+    Translation service that requires real AI backend.
+    No mock responses - all translations require actual AI.
     """
     def __init__(self):
-        logger.info("Initialized placeholder TranslationService")
+        logger.info("Initialized TranslationService - requires real AI backend")
 
-    async def translate(self, text: str, target_language: str) -> str:
-        """
-        Translates the given text to the target language.
-        
-        Args:
-            text: The text to translate.
-            target_language: The language to translate to (e.g., 'es', 'fr').
-            
-        Returns:
-            The translated text.
-        """
-        if not text:
-            return ""
-            
-        logger.info(f"Translating '{text}' to '{target_language}' (mock translation)")
-        
-        return f"{text} (translated to {target_language})"
+    async def translate_text(self, text: str, target_language: str) -> str:
+        """Translate text to target language using real AI backend."""
+        logger.error("Real AI backend is required for translation")
+        raise NotImplementedError("Real AI backend is required - no mock responses available")
 
-# Create a single instance of the service to be used across the application
+    async def translate_financial_content(self, content: str, target_language: str) -> str:
+        """Translate financial content to target language using real AI backend."""
+        logger.error("Real AI backend is required for financial content translation")
+        raise NotImplementedError("Real AI backend is required - no mock responses available")
+
+# Create a single instance of the service
 translation_service = TranslationService()

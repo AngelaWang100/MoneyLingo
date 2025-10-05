@@ -17,7 +17,7 @@ class TranslationAgent(BaseAgent):
         )
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash-exp",
-            google_api_key=os.getenv("GOOGLE_API_KEY"),
+            google_api_key="AIzaSyBvkcT0-wLuIgIENqPIHJKs2X5Br-ckJKs",
             temperature=0.3
         )
     
